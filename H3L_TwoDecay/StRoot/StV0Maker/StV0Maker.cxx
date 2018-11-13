@@ -81,19 +81,19 @@ void StV0Maker::initConst()
     // initialize the constant for different V0 types.
 
     // for Lambda:proton+pi- and AntiLambda: Antiproton+pi+
-    mMassV0 = 1.115683; // mass of H3L  //GeV is unit.
-    mMass1 = 0.938272081; // mass of He3    //GeV is unit.
+    mMassV0 = 2.991; // mass of H3L  //GeV is unit.
+    mMass1 = 2.808391586; // mass of He3    //GeV is unit.
     mMass2 = 0.13957061; // mass of pion      //GeV is unit.
 
     if (mV0Type == kLambda) {
-        mCharge1 = 1; // He3 charge = 2.
-        mChargeV0 = 0; // V0 charge,Lambda=0; Xi- = -1; H3L = 1.
+        mCharge1 = 2; // He3 charge = 2.
+        mChargeV0 = 1; // V0 charge,Lambda=0; Xi- = -1; H3L = 1.
         mCharge2 = -1; // pion minus charge = -1.
     }
 
     if (mV0Type == kAntiLambda) {
-        mCharge1 = -1; // antiHe3 charge= -2.
-        mChargeV0 = 0; // V0 charge,Lambda=0; antiXi- = 1; antiH3L = -1.
+        mCharge1 = -2; // antiHe3 charge= -2.
+        mChargeV0 = -1; // V0 charge,Lambda=0; antiXi- = 1; antiH3L = -1.
         mCharge2 = 1; // pion plus = 1.
     }
 
@@ -135,7 +135,7 @@ void StV0Maker::initParam()
     // initial dedx_dau1_th[11901]
     float temp1;
     ifstream f_dedx_th1;
-    f_dedx_th1.open("/star/u/jhai/dedx/dedx_mean_proton.dat");
+    f_dedx_th1.open("/star/u/jhai/dedx/dedx_mean_helium3.dat");
     for (int i = 0; i < 11901; i++) {
         f_dedx_th1 >> temp1 >> dedx_dau1_th[i];
     }

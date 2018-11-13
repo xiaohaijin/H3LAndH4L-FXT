@@ -1,3 +1,5 @@
+QT += core
+
 INCLUDEPATH += $$(ROOTSYS)/include
 INCLUDEPATH += $$(BOOSTSYS)/include
 
