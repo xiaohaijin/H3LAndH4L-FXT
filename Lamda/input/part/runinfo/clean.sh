@@ -1,13 +1,10 @@
 #! /bin/bash
 
-mkdir blank
+for directory in csh err list out report
+do
+    rm -rf ${directory}/*
+    touch ${directory}/README
+done
 
-rsync -a --delete   blank/ ./err
-rsync -a --delete   blank/ ./out
-rsync -a --delete   blank/ ./list
-rsync -a --delete   blank/ ./csh
-rsync -a --delete   blank/ ./report
-
-rm -rf blank
 
 echo "=============================END==============================="
