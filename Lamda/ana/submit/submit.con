@@ -1,0 +1,13 @@
+Universe     = vanilla
+Notification = Error
+Initialdir   = /star/u/pengliu/gpfs01/Lambda/R10AuAu200GeV/ana/submit
+Executable   = run.sh
+Arguments    = $(Process)
+Log          = $(Initialdir)/log/$(Process).log
+Output       = $(Initialdir)/log/$(Process).out
+Error        = $(Initialdir)/log/$(Process).err
+Notify_user  = liupeng@sinap.ac.cn
+GetEnv       = True
++Experiment  = "star"
++Job_Type    = "cas"
+Queue 100
