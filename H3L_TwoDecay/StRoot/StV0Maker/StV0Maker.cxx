@@ -81,19 +81,19 @@ void StV0Maker::initConst()
     // initialize the constant for different V0 types.
 
     // for Lambda:proton+pi- and AntiLambda: Antiproton+pi+
-    mMassV0 = 1.115683; // mass of H3L  //GeV is unit.
-    mMass1 = 0.938272081; // mass of He3    //GeV is unit.
+    mMassV0 = 2.991; // mass of H3L  //GeV is unit.
+    mMass1 = 2.808391586; // mass of He3    //GeV is unit.
     mMass2 = 0.13957061; // mass of pion      //GeV is unit.
 
     if (mV0Type == kLambda) {
-        mCharge1 = 1; // He3 charge = 2.
-        mChargeV0 = 0; // V0 charge,Lambda=0; Xi- = -1; H3L = 1.
+        mCharge1 = 2; // He3 charge = 2.
+        mChargeV0 = 1; // V0 charge,Lambda=0; Xi- = -1; H3L = 1.
         mCharge2 = -1; // pion minus charge = -1.
     }
 
     if (mV0Type == kAntiLambda) {
-        mCharge1 = -1; // antiHe3 charge= -2.
-        mChargeV0 = 0; // V0 charge,Lambda=0; antiXi- = 1; antiH3L = -1.
+        mCharge1 = -2; // antiHe3 charge= -2.
+        mChargeV0 = -1; // V0 charge,Lambda=0; antiXi- = 1; antiH3L = -1.
         mCharge2 = 1; // pion plus = 1.
     }
 
@@ -111,31 +111,31 @@ void StV0Maker::initParam()
     // setup the cut values here. do not hard-code them in ::Make()
 
     cutAbsVertexZLeEq = 50.0; /*!< done */
-    cutNHitsGr = 10; /*!< done */
+    cutNHitsGr = 16; /*!< done */
     cutNHitsDedxGr = 0; /*!< done */
     cutPtGrEq = 0.1; /*!< done, this is not asymmetric. */
 
-    cutAbsNSigma2Le = 2.0; /*!< done */
+    cutAbsNSigma2Le = 3.0; /*!< done */
 
-    cutDca1GrEq = 0.4; /*!< done */
-    cutDca2GrEq = 0.4; /*!< done */
+    cutDca1GrEq = 0.001; /*!< done */
+    cutDca2GrEq = 0.001; /*!< done */
 
-    cutDca1to2LeEq = 1.5;
-    cutV0MassWidthLeEq = 0.01;
+    cutDca1to2LeEq = 0.05;
+    cutV0MassWidthLeEq = 0.5;
     cutDauPtArmLeEq = 0.3;
     cutAbsDausPtShoulderDiffLeEq = 1.2;
     cutDau1DecAngGr = 0.0;
     cutDau2DecAngGr = 0.0;
     cutV0rdotpGr = 0.0;
-    cutDcaV0Le = 1.0;
-    cutV0DecLenGrEq = 2.0;
+    cutDcaV0Le = 0.05;
+    cutV0DecLenGrEq = 0.02;
 
     RotDegree = 180.0; // Rotate one dau to estimate background level.
 
     // initial dedx_dau1_th[11901]
     float temp1;
     ifstream f_dedx_th1;
-    f_dedx_th1.open("/star/u/jhai/dedx/dedx_mean_proton.dat");
+    f_dedx_th1.open("/star/u/jhai/dedx/dedx_mean_helium3.dat");
     for (int i = 0; i < 11901; i++) {
         f_dedx_th1 >> temp1 >> dedx_dau1_th[i];
     }
@@ -170,11 +170,51 @@ void StV0Maker::initHisto()
 
     // QA for events
     hNPrimVertex = new TH1F("PrimVertex", "Number of Primary Vertex", 10, 0.0, 10.0);
-    hVertexZ = new TH1F("VertexZ", "Event Vertex Z Position", nbins * 20, -200.0, 200.0);
-    hVertexZdiff = new TH1F("VertexZdiff", "Vertex Z Position(VPD-TPC)", nbins * 20, -200.0, 200.0);
+    //    hVertexZ = new TH1F("VertexZ", "Event Vertex Z Position", nbins * 20, -200.0, 200.0);
+    //    hVertexZdiff = new TH1F("VertexZdiff", "Vertex Z Position(VPD-TPC)", nbins * 20, -200.0, 200.0);
+    //    hNRefMult = new TH1F("RefMult", "Reference Multiplicity", nbins * 10, 0.0, 1000.0);
+    //    hSelectNRefMult = new TH1F("SelectRefMult", "Reference Multiplicity of selected events", nbins * 10, 0.0,
+    // 1000.0);
+    //    hPrimaryRefMult = new TH1F("PrimaryRefMult", "PrimaryRefMult", nbins * 10, 0.0, 1000.0);
+    //    hMagneticField = new TH1F("MagneticField", "magneticField of selected events", nbins * 2, -10.0, 10.0);
+
+    //    hnSigmaProton = new TH2F("nSigmaProton", "nSigmaProton", nbins * 20, -10.0, 10.0, nbins * 2, -10.0, 10.0);
+    //    hnSigmaPion = new TH2F("nSigmaPion", "nSigmaPion", nbins * 20, -10.0, 10.0, nbins * 2, -10.0, 10.0);
+    //    hnSigmaKaon = new TH2F("nSigmaKaon", "nSigmaKaon", nbins * 20, -10.0, 10.0, nbins * 2, -10.0, 10.0);
+
+    //    hdEdxP = new TH2F("dEdxP", "dEdx vs. Rigidity", nbins * 20, -10.0, 10.0, nbins * 5, 0.0, 5e-5);
+    //    hDcaP = new TH2F("DcaP", "Dca vs. Rigidity", nbins * 20, -10.0, 10.0, nbins * 20, 0.0, 20.0);
+    //    hMassP = new TH2F("MassP", "Mass vs. Rigidity", nbins * 20, -10.0, 10.0, nbins * 160, 0.0, 16.0);
+    //    hInvBetaP = new TH2F("InvBetaP", "InvBeta vs. Rigidity", nbins * 20, -10.0, 10.0, nbins * 5, 0.0, 5.0);
+
+    //    hdau1dEdxP = new TH2F("dau1dEdxP", "dau1dEdx vs. Rigidity", nbins * 20, -10.0, 10.0, nbins * 5, 0.0, 5e-5);
+    //    hdau2dEdxP = new TH2F("dau2dEdxP", "dau2dEdx vs. Rigidity", nbins * 20, -10.0, 10.0, nbins * 5, 0.0, 5e-5);
+
+    //    hdau1ZP = new TH2F("dau1ZP", "dau1Z vs. Rigidity", nbins * 20, -10.0, 10.0, nbins, -0.5, 0.5);
+    //    hdau2ZP = new TH2F("dau2ZP", "dau2Z vs. Rigidity", nbins * 20, -10.0, 10.0, nbins, -0.5, 0.5);
+
+    //    hdau1MassP = new TH2F("dau1MassP", "dau1Mass vs. Rigidity", nbins * 20, -10.0, 10.0, nbins * 160, 0.0, 16.0);
+    //    hdau2MassP = new TH2F("dau2MassP", "dau2Mass vs. Rigidity", nbins * 20, -10.0, 10.0, nbins * 160, 0.0, 16.0);
+
+    //    hdau1InvBetaP = new TH2F("dau1InvBetaP", "dau1InvBeta vs. Rigidity", nbins * 20, -10.0, 10.0, nbins * 5, 0.0,
+    // 5.0);
+    //    hdau2InvBetaP = new TH2F("dau2InvBetaP", "dau2InvBeta vs. Rigidity", nbins * 20, -10.0, 10.0, nbins * 5, 0.0,
+    // 5.0);
+
+    //    hdau1DiffInvBetaP
+    //        = new TH2F("dau1DiffInvBetaP", "dau1DiffInvBeta vs. Rigidity", nbins * 20, -10.0, 10.0, nbins * 20, -1.0,
+    // 1.0);
+    //    hdau2DiffInvBetaP
+    //        = new TH2F("dau2DiffInvBetaP", "dau2DiffInvBeta vs. Rigidity", nbins * 20, -10.0, 10.0, nbins * 20, -1.0,
+    // 1.0);
+
+    //    // QA for V0's
+    //    hInvMass
+    //        = new TH1F("V0Mass", "V0 Inv. Mass", nbins * 2, mMassV0 - cutV0MassWidthLeEq, mMassV0 +
+    // cutV0MassWidthLeEq);
+    hVertexZdiff = new TH1F("VertexZdiff", "Vertex Z Position(VPD-TPC)", nbins * 20, -100.0, 100.0);
     hNRefMult = new TH1F("RefMult", "Reference Multiplicity", nbins * 10, 0.0, 1000.0);
     hSelectNRefMult = new TH1F("SelectRefMult", "Reference Multiplicity of selected events", nbins * 10, 0.0, 1000.0);
-    hPrimaryRefMult = new TH1F("PrimaryRefMult", "PrimaryRefMult", nbins * 10, 0.0, 1000.0);
     hMagneticField = new TH1F("MagneticField", "magneticField of selected events", nbins * 2, -10.0, 10.0);
 
     hnSigmaProton = new TH2F("nSigmaProton", "nSigmaProton", nbins * 20, -10.0, 10.0, nbins * 2, -10.0, 10.0);
@@ -183,7 +223,7 @@ void StV0Maker::initHisto()
 
     hdEdxP = new TH2F("dEdxP", "dEdx vs. Rigidity", nbins * 20, -10.0, 10.0, nbins * 5, 0.0, 5e-5);
     hDcaP = new TH2F("DcaP", "Dca vs. Rigidity", nbins * 20, -10.0, 10.0, nbins * 20, 0.0, 20.0);
-    hMassP = new TH2F("MassP", "Mass vs. Rigidity", nbins * 20, -10.0, 10.0, nbins * 160, 0.0, 16.0);
+    hMassP = new TH2F("MassP", "Mass vs. Rigidity", nbins * 20, -10.0, 10.0, nbins * 50, 0.0, 5.0);
     hInvBetaP = new TH2F("InvBetaP", "InvBeta vs. Rigidity", nbins * 20, -10.0, 10.0, nbins * 5, 0.0, 5.0);
 
     hdau1dEdxP = new TH2F("dau1dEdxP", "dau1dEdx vs. Rigidity", nbins * 20, -10.0, 10.0, nbins * 5, 0.0, 5e-5);
@@ -192,16 +232,16 @@ void StV0Maker::initHisto()
     hdau1ZP = new TH2F("dau1ZP", "dau1Z vs. Rigidity", nbins * 20, -10.0, 10.0, nbins, -0.5, 0.5);
     hdau2ZP = new TH2F("dau2ZP", "dau2Z vs. Rigidity", nbins * 20, -10.0, 10.0, nbins, -0.5, 0.5);
 
-    hdau1MassP = new TH2F("dau1MassP", "dau1Mass vs. Rigidity", nbins * 20, -10.0, 10.0, nbins * 160, 0.0, 16.0);
-    hdau2MassP = new TH2F("dau2MassP", "dau2Mass vs. Rigidity", nbins * 20, -10.0, 10.0, nbins * 160, 0.0, 16.0);
+    hdau1MassP = new TH2F("dau1MassP", "dau1Mass vs. Rigidity", nbins * 20, -10.0, 10.0, nbins * 50, 0.0, 5.0);
+    hdau2MassP = new TH2F("dau2MassP", "dau1Mass vs. Rigidity", nbins * 20, -10.0, 10.0, nbins * 50, 0.0, 5.0);
 
     hdau1InvBetaP = new TH2F("dau1InvBetaP", "dau1InvBeta vs. Rigidity", nbins * 20, -10.0, 10.0, nbins * 5, 0.0, 5.0);
-    hdau2InvBetaP = new TH2F("dau2InvBetaP", "dau2InvBeta vs. Rigidity", nbins * 20, -10.0, 10.0, nbins * 5, 0.0, 5.0);
+    hdau2InvBetaP = new TH2F("dau2InvBetaP", "dau1InvBeta vs. Rigidity", nbins * 20, -10.0, 10.0, nbins * 5, 0.0, 5.0);
 
     hdau1DiffInvBetaP
         = new TH2F("dau1DiffInvBetaP", "dau1DiffInvBeta vs. Rigidity", nbins * 20, -10.0, 10.0, nbins * 20, -1.0, 1.0);
     hdau2DiffInvBetaP
-        = new TH2F("dau2DiffInvBetaP", "dau2DiffInvBeta vs. Rigidity", nbins * 20, -10.0, 10.0, nbins * 20, -1.0, 1.0);
+        = new TH2F("dau2DiffInvBetaP", "dau1DiffInvBeta vs. Rigidity", nbins * 20, -10.0, 10.0, nbins * 20, -1.0, 1.0);
 
     // QA for V0's
     hInvMass
