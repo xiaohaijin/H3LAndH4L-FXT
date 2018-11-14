@@ -28,7 +28,7 @@
 /////////////////////////////////////////////////////////
 /// was added by xiaohai(begin)
 /////////////////////////////////////////////////////////
-//#define XIAOHAI
+#define XIAOHAI
 
 #ifdef XIAOHAI
 #include "tofPathLength.hh"
@@ -117,10 +117,10 @@ void StV0Maker::initParam()
 
     cutAbsNSigma2Le = 2.0; /*!< done */
 
-    cutDca1GrEq = 0.4; /*!< done */
-    cutDca2GrEq = 0.4; /*!< done */
+    cutDca1GrEq = 0.9; /*!< done */
+    cutDca2GrEq = 0.9; /*!< done */
 
-    cutDca1to2LeEq = 1.5;
+    cutDca1to2LeEq = 1.0;
     cutV0MassWidthLeEq = 0.01;
     cutDauPtArmLeEq = 0.3;
     cutAbsDausPtShoulderDiffLeEq = 1.2;
@@ -128,7 +128,7 @@ void StV0Maker::initParam()
     cutDau2DecAngGr = 0.0;
     cutV0rdotpGr = 0.0;
     cutDcaV0Le = 1.0;
-    cutV0DecLenGrEq = 2.0;
+    cutV0DecLenGrEq = 7.0;
 
     RotDegree = 180.0; // Rotate one dau to estimate background level.
 
