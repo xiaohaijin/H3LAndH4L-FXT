@@ -19,6 +19,6 @@
 		<ScriptLocation>/star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/</ScriptLocation>
 		<ListLocation>/star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/list/</ListLocation>
 	</Generator>
-	<input URL="catalog:star.bnl.gov?storage=hpss,production=P16ia,trgsetupname=fixedTarget2015,filetype=daq_reco_MuDst,filename~st_physics" singleCopy="true" nFiles="all"/>
+	<input URL="catalog:star.bnl.gov?storage=hpss,production=P16ia,trgsetupname=fixedTarget2015,filetype=daq_reco_MuDst,filename~st_physics" singleCopy="true" nFiles="10"/>
 	<output fromScratch="*.root" toURL="file:/star/u/jhai/scratch/FixedTarget/H3L/output/"/>
 </job>
