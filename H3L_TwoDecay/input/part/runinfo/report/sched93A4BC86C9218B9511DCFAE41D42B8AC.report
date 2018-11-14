@@ -1,0 +1,1727 @@
+STAR Unified Meta Scheduler 1.10.28
+File generated at : Wed Nov 14 09:28:40 EST 2018
+This file is a detailed report of SUMS meta job 93A4BC86C9218B9511DCFAE41D42B8AC and its 282 processes.
+
+Jobs table :
++-------------------------------------------------------------Jobs Of Request 93A4BC86C9218B9511DCFAE41D42B8AC---------------------------------------------------------------+
++--------------------------------------+----------------------+-------+--------+------------+--------+-----------------------+----------------------+---------+--------------+
+| Job_ID                               | Queue                | Files | Events | estRunTime | Target | SubmitTime            | Dispatcher           | Success | DispatchTime |
++--------------------------------------+----------------------+-------+--------+------------+--------+-----------------------+----------------------+---------+--------------+
+| 93A4BC86C9218B9511DCFAE41D42B8AC_0   | bnl_condor_RCF_quick | 1     | 40     | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_1   | bnl_condor_RCF_quick | 1     | 48     | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_2   | bnl_condor_RCF_quick | 1     | 128    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_3   | bnl_condor_RCF_quick | 1     | 130    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_4   | bnl_condor_RCF_quick | 1     | 171    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_5   | bnl_condor_RCF_quick | 1     | 146    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_6   | bnl_condor_RCF_quick | 1     | 146    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_7   | bnl_condor_RCF_quick | 1     | 175    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_8   | bnl_condor_RCF_quick | 1     | 203    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_9   | bnl_condor_RCF_quick | 1     | 257    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_10  | bnl_condor_RCF_quick | 1     | 257    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_11  | bnl_condor_RCF_quick | 1     | 642    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_12  | bnl_condor_RCF_quick | 1     | 642    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_13  | bnl_condor_RCF_quick | 1     | 642    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_14  | bnl_condor_RCF_quick | 1     | 643    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_15  | bnl_condor_RCF_quick | 1     | 642    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_16  | bnl_condor_RCF_quick | 1     | 489    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_17  | bnl_condor_RCF_quick | 1     | 489    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_18  | bnl_condor_RCF_quick | 1     | 567    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_19  | bnl_condor_RCF_quick | 1     | 289    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_20  | bnl_condor_RCF_quick | 1     | 392    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_21  | bnl_condor_RCF_quick | 1     | 392    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_22  | bnl_condor_RCF_quick | 1     | 721    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_23  | bnl_condor_RCF_quick | 1     | 721    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_24  | bnl_condor_RCF_quick | 1     | 721    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_25  | bnl_condor_RCF_quick | 1     | 156    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_26  | bnl_condor_RCF_quick | 1     | 403    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_27  | bnl_condor_RCF_quick | 1     | 97     | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_28  | bnl_condor_RCF_quick | 1     | 250    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_29  | bnl_condor_RCF_quick | 1     | 116    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_30  | bnl_condor_RCF_quick | 1     | 146    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_31  | bnl_condor_RCF_quick | 1     | 145    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_32  | bnl_condor_RCF_quick | 1     | 145    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_33  | bnl_condor_RCF_quick | 1     | 145    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_34  | bnl_condor_RCF_quick | 1     | 98     | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_35  | bnl_condor_RCF_quick | 1     | 203    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_36  | bnl_condor_RCF_quick | 1     | 642    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_37  | bnl_condor_RCF_quick | 1     | 771    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_38  | bnl_condor_RCF_quick | 1     | 1221   | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_39  | bnl_condor_RCF_quick | 1     | 1221   | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_40  | bnl_condor_RCF_quick | 1     | 1221   | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_41  | bnl_condor_RCF_quick | 1     | 1465   | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_42  | bnl_condor_RCF_quick | 1     | 580    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_43  | bnl_condor_RCF_quick | 1     | 1344   | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_44  | bnl_condor_RCF_quick | 1     | 1320   | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_45  | bnl_condor_RCF_quick | 1     | 1386   | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_46  | bnl_condor_RCF_quick | 1     | 289    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_47  | bnl_condor_RCF_quick | 1     | 721    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_48  | bnl_condor_RCF_quick | 1     | 721    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_49  | bnl_condor_RCF_quick | 1     | 721    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_50  | bnl_condor_RCF_quick | 1     | 865    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_51  | bnl_condor_RCF_quick | 1     | 980    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_52  | bnl_condor_RCF_quick | 1     | 979    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_53  | bnl_condor_RCF_quick | 1     | 980    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_54  | bnl_condor_RCF_quick | 1     | 507    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_55  | bnl_condor_RCF_quick | 1     | 1175   | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_56  | bnl_condor_RCF_quick | 1     | 968    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_57  | bnl_condor_RCF_quick | 1     | 585    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_58  | bnl_condor_RCF_quick | 1     | 506    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_59  | bnl_condor_RCF_quick | 1     | 506    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_60  | bnl_condor_RCF_quick | 1     | 607    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_61  | bnl_condor_RCF_quick | 1     | 1139   | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_62  | bnl_condor_RCF_quick | 1     | 454    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_63  | bnl_condor_RCF_quick | 1     | 742    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_64  | bnl_condor_RCF_quick | 1     | 1275   | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_65  | bnl_condor_RCF_quick | 1     | 588    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_66  | bnl_condor_RCF_quick | 1     | 506    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_67  | bnl_condor_RCF_quick | 1     | 507    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_68  | bnl_condor_RCF_quick | 1     | 507    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_69  | bnl_condor_RCF_quick | 1     | 1220   | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_70  | bnl_condor_RCF_quick | 1     | 1221   | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_71  | bnl_condor_RCF_quick | 1     | 1221   | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_72  | bnl_condor_RCF_quick | 1     | 1312   | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_73  | bnl_condor_RCF_quick | 1     | 1520   | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_74  | bnl_condor_RCF_quick | 1     | 1440   | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_75  | bnl_condor_RCF_quick | 1     | 1408   | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_76  | bnl_condor_RCF_quick | 1     | 980    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_77  | bnl_condor_RCF_quick | 1     | 980    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_78  | bnl_condor_RCF_quick | 1     | 980    | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_79  | bnl_condor_RCF_quick | 1     | 1358   | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_80  | bnl_condor_RCF_quick | 1     | 2722   | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_81  | bnl_condor_RCF_quick | 1     | 1383   | n/a        | Any    | 14/11/2018 09:28:39AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_82  | bnl_condor_RCF_quick | 1     | 1471   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_83  | bnl_condor_RCF_quick | 1     | 1407   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_84  | bnl_condor_RCF_quick | 1     | 1460   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_85  | bnl_condor_RCF_quick | 1     | 1478   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_86  | bnl_condor_RCF_quick | 1     | 2876   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_87  | bnl_condor_RCF_quick | 1     | 1457   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_88  | bnl_condor_RCF_quick | 1     | 3047   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_89  | bnl_condor_RCF_quick | 1     | 3048   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_90  | bnl_condor_RCF_quick | 1     | 3047   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_91  | bnl_condor_RCF_quick | 1     | 2744   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_92  | bnl_condor_RCF_quick | 1     | 3392   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_93  | bnl_condor_RCF_quick | 1     | 3385   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_94  | bnl_condor_RCF_quick | 1     | 3392   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_95  | bnl_condor_RCF_quick | 1     | 3392   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_96  | bnl_condor_RCF_quick | 1     | 2680   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_97  | bnl_condor_RCF_quick | 1     | 4929   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_98  | bnl_condor_RCF_quick | 1     | 5803   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_99  | bnl_condor_RCF_quick | 1     | 4072   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_100 | bnl_condor_RCF_quick | 1     | 4903   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_101 | bnl_condor_RCF_quick | 1     | 4378   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_102 | bnl_condor_RCF_quick | 1     | 4903   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_103 | bnl_condor_RCF_quick | 1     | 4861   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_104 | bnl_condor_RCF_quick | 1     | 5992   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_105 | bnl_condor_RCF_quick | 1     | 4904   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_106 | bnl_condor_RCF_quick | 1     | 6180   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_107 | bnl_condor_RCF_quick | 1     | 3557   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_108 | bnl_condor_RCF_quick | 1     | 4731   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_109 | bnl_condor_RCF_quick | 1     | 6180   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_110 | bnl_condor_RCF_quick | 1     | 4306   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_111 | bnl_condor_RCF_quick | 1     | 4731   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_112 | bnl_condor_RCF_quick | 1     | 5458   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_113 | bnl_condor_RCF_quick | 1     | 5458   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_114 | bnl_condor_RCF_quick | 1     | 5520   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_115 | bnl_condor_RCF_quick | 1     | 5519   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_116 | bnl_condor_RCF_quick | 1     | 6144   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_117 | bnl_condor_RCF_quick | 1     | 6143   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_118 | bnl_condor_RCF_quick | 1     | 12104  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_119 | bnl_condor_RCF_quick | 1     | 5458   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_120 | bnl_condor_RCF_quick | 1     | 5447   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_121 | bnl_condor_RCF_quick | 1     | 5519   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_122 | bnl_condor_RCF_quick | 1     | 6132   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_123 | bnl_condor_RCF_quick | 1     | 6144   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_124 | bnl_condor_RCF_quick | 1     | 7402   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_125 | bnl_condor_RCF_quick | 1     | 15263  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_126 | bnl_condor_RCF_quick | 1     | 12059  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_127 | bnl_condor_RCF_quick | 1     | 8006   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_128 | bnl_condor_RCF_quick | 1     | 6319   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_129 | bnl_condor_RCF_quick | 1     | 6319   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_130 | bnl_condor_RCF_quick | 1     | 16481  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_131 | bnl_condor_RCF_quick | 1     | 20139  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_132 | bnl_condor_RCF_quick | 1     | 9416   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_133 | bnl_condor_RCF_quick | 1     | 9605   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_134 | bnl_condor_RCF_quick | 1     | 5033   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_135 | bnl_condor_RCF_quick | 1     | 6903   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_136 | bnl_condor_RCF_quick | 1     | 22761  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_137 | bnl_condor_RCF_quick | 1     | 23469  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_138 | bnl_condor_RCF_quick | 1     | 12503  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_139 | bnl_condor_RCF_quick | 1     | 23313  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_140 | bnl_condor_RCF_quick | 1     | 23910  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_141 | bnl_condor_RCF_quick | 1     | 17826  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_142 | bnl_condor_RCF_quick | 1     | 9153   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_143 | bnl_condor_RCF_quick | 1     | 9892   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_144 | bnl_condor_RCF_quick | 1     | 11797  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_145 | bnl_condor_RCF_quick | 1     | 13843  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_146 | bnl_condor_RCF_quick | 1     | 13842  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_147 | bnl_condor_RCF_quick | 1     | 27874  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_148 | bnl_condor_RCF_quick | 1     | 30347  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_149 | bnl_condor_RCF_quick | 1     | 33079  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_150 | bnl_condor_RCF_quick | 1     | 21337  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_151 | bnl_condor_RCF_quick | 1     | 31160  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_152 | bnl_condor_RCF_quick | 1     | 31173  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_153 | bnl_condor_RCF_quick | 1     | 10521  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_154 | bnl_condor_RCF_quick | 1     | 10598  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_155 | bnl_condor_RCF_quick | 1     | 27874  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_156 | bnl_condor_RCF_quick | 1     | 35195  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_157 | bnl_condor_RCF_quick | 1     | 35831  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_158 | bnl_condor_RCF_quick | 1     | 13035  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_159 | bnl_condor_RCF_quick | 1     | 10599  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_160 | bnl_condor_RCF_quick | 1     | 10598  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_161 | bnl_condor_RCF_quick | 1     | 13842  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_162 | bnl_condor_RCF_quick | 1     | 14152  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_163 | bnl_condor_RCF_quick | 1     | 34648  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_164 | bnl_condor_RCF_quick | 1     | 21487  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_165 | bnl_condor_RCF_quick | 1     | 27299  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_166 | bnl_condor_RCF_quick | 1     | 36650  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_167 | bnl_condor_RCF_quick | 1     | 11775  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_168 | bnl_condor_RCF_quick | 1     | 11797  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_169 | bnl_condor_RCF_quick | 1     | 9495   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_170 | bnl_condor_RCF_quick | 1     | 36575  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_171 | bnl_condor_RCF_quick | 1     | 36739  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_172 | bnl_condor_RCF_quick | 1     | 9465   | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_173 | bnl_condor_RCF_quick | 1     | 27269  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_174 | bnl_condor_RCF_quick | 1     | 31775  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_175 | bnl_condor_RCF_quick | 1     | 14151  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_176 | bnl_condor_RCF_quick | 1     | 14152  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_177 | bnl_condor_RCF_quick | 1     | 34247  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_178 | bnl_condor_RCF_quick | 1     | 42876  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_179 | bnl_condor_RCF_quick | 1     | 11578  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_180 | bnl_condor_RCF_quick | 1     | 24856  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_181 | bnl_condor_RCF_quick | 1     | 35244  | n/a        | Any    | 14/11/2018 09:28:35AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_182 | bnl_condor_RCF_quick | 1     | 37587  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_183 | bnl_condor_RCF_quick | 1     | 42849  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_184 | bnl_condor_RCF_quick | 1     | 40963  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_185 | bnl_condor_RCF_quick | 1     | 41173  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_186 | bnl_condor_RCF_quick | 1     | 34231  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_187 | bnl_condor_RCF_quick | 1     | 41862  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_188 | bnl_condor_RCF_quick | 1     | 15753  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_189 | bnl_condor_RCF_quick | 1     | 31297  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_190 | bnl_condor_RCF_quick | 1     | 15753  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_191 | bnl_condor_RCF_quick | 1     | 31297  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_192 | bnl_condor_RCF_quick | 1     | 15823  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_193 | bnl_condor_RCF_quick | 1     | 14686  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_194 | bnl_condor_RCF_quick | 1     | 15723  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_195 | bnl_condor_RCF_quick | 1     | 15752  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_196 | bnl_condor_RCF_quick | 1     | 11545  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_197 | bnl_condor_RCF_quick | 1     | 45626  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_198 | bnl_condor_RCF_quick | 1     | 34162  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_199 | bnl_condor_RCF_quick | 1     | 54588  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_200 | bnl_condor_RCF_quick | 1     | 35641  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_201 | bnl_condor_RCF_quick | 1     | 12871  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_202 | bnl_condor_RCF_quick | 1     | 52992  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_203 | bnl_condor_RCF_quick | 1     | 36122  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_204 | bnl_condor_RCF_quick | 1     | 42384  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_205 | bnl_condor_RCF_quick | 1     | 14645  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_206 | bnl_condor_RCF_quick | 1     | 46178  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_207 | bnl_condor_RCF_quick | 1     | 14278  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_208 | bnl_condor_RCF_quick | 1     | 25667  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_209 | bnl_condor_RCF_quick | 1     | 52992  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_210 | bnl_condor_RCF_quick | 1     | 38357  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_211 | bnl_condor_RCF_quick | 1     | 42519  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_212 | bnl_condor_RCF_quick | 1     | 42519  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_213 | bnl_condor_RCF_quick | 1     | 58766  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_214 | bnl_condor_RCF_quick | 1     | 64579  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_215 | bnl_condor_RCF_quick | 1     | 66238  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_216 | bnl_condor_RCF_quick | 1     | 39668  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_217 | bnl_condor_RCF_quick | 1     | 53010  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_218 | bnl_condor_RCF_quick | 1     | 41903  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_219 | bnl_condor_RCF_quick | 1     | 25430  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_220 | bnl_condor_RCF_quick | 1     | 48514  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_221 | bnl_condor_RCF_quick | 1     | 20328  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_222 | bnl_condor_RCF_quick | 1     | 46932  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_223 | bnl_condor_RCF_quick | 1     | 48296  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_224 | bnl_condor_RCF_quick | 1     | 16363  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_225 | bnl_condor_RCF_quick | 1     | 63180  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_226 | bnl_condor_RCF_quick | 1     | 50087  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_227 | bnl_condor_RCF_quick | 1     | 16571  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_228 | bnl_condor_RCF_quick | 1     | 19659  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_229 | bnl_condor_RCF_quick | 1     | 19798  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_230 | bnl_condor_RCF_quick | 1     | 65630  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_231 | bnl_condor_RCF_quick | 1     | 17431  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_232 | bnl_condor_RCF_quick | 1     | 26795  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_233 | bnl_condor_RCF_quick | 1     | 21937  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_234 | bnl_condor_RCF_quick | 1     | 21574  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_235 | bnl_condor_RCF_quick | 1     | 21991  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_236 | bnl_condor_RCF_quick | 1     | 73346  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_237 | bnl_condor_RCF_quick | 1     | 55916  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_238 | bnl_condor_RCF_quick | 1     | 20384  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_239 | bnl_condor_RCF_quick | 1     | 21991  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_240 | bnl_condor_RCF_quick | 1     | 62427  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_241 | bnl_condor_RCF_quick | 1     | 53024  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_242 | bnl_condor_RCF_quick | 1     | 22511  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_243 | bnl_condor_RCF_quick | 1     | 62427  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_244 | bnl_condor_RCF_quick | 1     | 67533  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_245 | bnl_condor_RCF_quick | 1     | 68933  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_246 | bnl_condor_RCF_quick | 1     | 20442  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_247 | bnl_condor_RCF_quick | 1     | 23820  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_248 | bnl_condor_RCF_quick | 1     | 75832  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_249 | bnl_condor_RCF_quick | 1     | 57489  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_250 | bnl_condor_RCF_quick | 1     | 62427  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_251 | bnl_condor_RCF_quick | 1     | 60879  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_252 | bnl_condor_RCF_quick | 1     | 60182  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_253 | bnl_condor_RCF_quick | 1     | 75781  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_254 | bnl_condor_RCF_quick | 1     | 61065  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_255 | bnl_condor_RCF_quick | 1     | 24767  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_256 | bnl_condor_RCF_quick | 1     | 25460  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_257 | bnl_condor_RCF_quick | 1     | 58033  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_258 | bnl_condor_RCF_quick | 1     | 19913  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_259 | bnl_condor_RCF_quick | 1     | 20386  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_260 | bnl_condor_RCF_quick | 1     | 20926  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_261 | bnl_condor_RCF_quick | 1     | 57989  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_262 | bnl_condor_RCF_quick | 1     | 23791  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_263 | bnl_condor_RCF_quick | 1     | 75806  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_264 | bnl_condor_RCF_quick | 1     | 60997  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_265 | bnl_condor_RCF_quick | 1     | 20693  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_266 | bnl_condor_RCF_quick | 1     | 20145  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_267 | bnl_condor_RCF_quick | 1     | 21318  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_268 | bnl_condor_RCF_quick | 1     | 21438  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_269 | bnl_condor_RCF_quick | 1     | 25285  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_270 | bnl_condor_RCF_quick | 1     | 21552  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_271 | bnl_condor_RCF_quick | 1     | 20003  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_272 | bnl_condor_RCF_quick | 1     | 20460  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_273 | bnl_condor_RCF_quick | 1     | 20413  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_274 | bnl_condor_RCF_quick | 1     | 21748  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_275 | bnl_condor_RCF_quick | 1     | 25307  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_276 | bnl_condor_RCF_quick | 1     | 19723  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_277 | bnl_condor_RCF_quick | 1     | 20676  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_278 | bnl_condor_RCF_quick | 1     | 26476  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_279 | bnl_condor_RCF_quick | 1     | 20341  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_280 | bnl_condor_RCF_quick | 1     | 25412  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
+| 93A4BC86C9218B9511DCFAE41D42B8AC_281 | bnl_condor_RCF_quick | 1     | 25750  | n/a        | Any    | 14/11/2018 09:28:30AM | CondorFastDispatcher | YES     | 1ms          |
++--------------------------------------+----------------------+-------+--------+------------+--------+-----------------------+----------------------+---------+--------------+
+Request object report :
+ 
++----------------------------------------------Queues-----------------------------------------------+
++-------------------------+------+--------+-----------+---------+-------+--------+------------------+
+| ID                      | Name | Type   | TimeLimit | MaxMem  | Local | S.O.P. | Cluster          |
++-------------------------+------+--------+-----------+---------+-------+--------+------------------+
+| bnl_condor_RCF_quick    |      | CONDOR | 300min    | none    | N     | 1      | rcrs.rcf.bnl.gov |
+| bnl_condor_short_quick  |      | CONDOR | 180min    | 10000MB | N     | 10     | rcrs.rcf.bnl.gov |
+| BNL_condor_medium_quick |      | CONDOR | 300min    | 10000MB | N     | 50     | rcrs.rcf.bnl.gov |
+| bnl_condor_long_quick   |      | CONDOR | 7200min   | 10000MB | N     | 100    | rcrs.rcf.bnl.gov |
++-------------------------+------+--------+-----------+---------+-------+--------+------------------+
+
+*************************************************************************
+
+*   This is a history of Job assignments.                               *
+
+*   If your Jobs are going to the wrong queue, this may tell you why.   *
+
+*************************************************************************
+
+
+
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_0 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_0 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_0 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_1 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_1 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_1 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_2 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_2 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_2 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_3 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_3 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_3 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_4 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_4 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_4 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_5 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_5 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_5 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_6 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_6 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_6 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_7 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_7 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_7 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_8 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_8 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_8 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_9 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_9 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_9 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_10 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_10 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_10 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_11 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_11 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_11 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_12 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_12 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_12 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_13 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_13 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_13 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_14 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_14 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_14 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_15 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_15 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_15 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_16 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_16 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_16 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_17 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_17 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_17 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_18 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_18 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_18 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_19 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_19 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_19 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_20 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_20 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_20 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_21 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_21 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_21 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_22 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_22 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_22 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_23 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_23 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_23 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_24 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_24 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_24 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_25 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_25 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_25 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_26 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_26 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_26 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_27 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_27 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_27 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_28 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_28 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_28 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_29 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_29 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_29 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_30 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_30 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_30 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_31 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_31 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_31 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_32 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_32 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_32 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_33 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_33 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_33 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_34 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_34 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_34 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_35 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_35 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_35 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_36 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_36 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_36 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_37 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_37 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_37 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_38 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_38 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_38 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_39 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_39 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_39 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_40 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_40 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_40 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_41 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_41 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_41 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_42 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_42 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_42 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_43 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_43 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_43 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_44 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_44 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_44 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_45 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_45 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_45 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_46 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_46 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_46 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_47 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_47 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_47 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_48 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_48 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_48 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_49 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_49 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_49 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_50 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_50 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_50 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_51 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_51 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_51 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_52 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_52 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_52 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_53 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_53 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_53 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_54 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_54 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_54 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_55 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_55 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_55 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_56 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_56 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_56 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_57 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_57 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_57 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_58 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_58 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_58 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_59 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_59 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_59 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_60 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_60 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_60 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_61 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_61 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_61 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_62 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_62 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_62 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_63 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_63 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_63 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_64 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_64 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_64 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_65 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_65 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_65 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_66 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_66 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_66 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_67 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_67 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_67 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_68 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_68 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_68 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_69 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_69 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_69 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_70 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_70 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_70 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_71 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_71 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_71 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_72 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_72 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_72 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_73 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_73 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_73 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_74 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_74 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_74 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_75 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_75 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_75 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_76 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_76 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_76 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_77 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_77 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_77 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_78 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_78 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_78 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_79 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_79 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_79 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_80 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_80 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_80 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_81 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_81 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_81 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_82 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_82 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_82 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_83 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_83 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_83 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_84 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_84 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_84 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_85 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_85 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_85 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_86 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_86 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_86 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_87 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_87 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_87 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_88 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_88 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_88 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_89 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_89 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_89 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_90 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_90 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_90 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_91 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_91 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_91 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_92 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_92 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_92 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_93 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_93 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_93 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_94 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_94 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_94 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_95 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_95 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_95 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_96 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_96 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_96 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_97 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_97 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_97 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_98 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_98 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_98 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_99 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_99 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_99 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_100 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_100 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_100 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_101 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_101 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_101 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_102 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_102 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_102 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_103 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_103 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_103 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_104 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_104 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_104 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_105 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_105 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_105 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_106 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_106 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_106 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_107 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_107 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_107 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_108 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_108 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_108 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_109 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_109 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_109 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_110 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_110 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_110 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_111 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_111 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_111 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_112 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_112 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_112 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_113 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_113 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_113 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_114 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_114 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_114 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_115 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_115 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_115 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_116 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_116 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_116 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_117 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_117 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_117 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_118 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_118 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_118 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_119 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_119 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_119 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_120 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_120 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_120 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_121 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_121 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_121 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_122 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_122 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_122 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_123 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_123 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_123 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_124 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_124 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_124 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_125 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_125 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_125 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_126 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_126 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_126 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_127 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_127 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_127 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_128 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_128 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_128 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_129 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_129 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_129 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_130 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_130 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_130 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_131 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_131 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_131 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_132 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_132 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_132 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_133 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_133 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_133 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_134 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_134 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_134 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_135 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_135 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_135 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_136 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_136 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_136 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_137 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_137 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_137 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_138 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_138 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_138 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_139 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_139 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_139 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_140 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_140 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_140 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_141 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_141 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_141 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_142 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_142 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_142 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_143 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_143 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_143 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_144 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_144 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_144 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_145 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_145 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_145 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_146 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_146 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_146 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_147 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_147 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_147 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_148 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_148 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_148 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_149 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_149 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_149 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_150 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_150 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_150 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_151 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_151 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_151 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_152 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_152 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_152 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_153 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_153 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_153 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_154 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_154 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_154 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_155 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_155 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_155 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_156 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_156 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_156 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_157 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_157 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_157 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_158 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_158 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_158 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_159 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_159 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_159 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_160 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_160 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_160 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_161 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_161 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_161 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_162 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_162 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_162 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_163 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_163 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_163 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_164 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_164 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_164 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_165 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_165 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_165 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_166 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_166 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_166 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_167 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_167 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_167 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_168 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_168 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_168 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_169 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_169 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_169 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_170 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_170 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_170 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_171 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_171 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_171 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_172 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_172 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_172 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_173 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_173 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_173 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_174 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_174 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_174 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_175 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_175 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_175 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_176 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_176 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_176 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_177 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_177 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_177 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_178 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_178 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_178 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_179 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_179 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_179 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_180 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_180 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_180 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_181 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_181 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_181 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_182 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_182 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_182 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_183 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_183 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_183 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_184 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_184 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_184 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_185 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_185 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_185 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_186 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_186 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_186 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_187 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_187 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_187 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_188 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_188 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_188 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_189 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_189 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_189 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_190 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_190 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_190 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_191 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_191 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_191 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_192 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_192 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_192 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_193 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_193 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_193 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_194 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_194 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_194 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_195 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_195 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_195 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_196 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_196 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_196 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_197 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_197 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_197 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_198 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_198 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_198 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_199 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_199 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_199 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_200 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_200 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_200 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_201 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_201 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_201 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_202 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_202 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_202 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_203 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_203 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_203 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_204 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_204 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_204 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_205 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_205 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_205 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_206 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_206 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_206 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_207 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_207 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_207 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_208 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_208 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_208 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_209 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_209 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_209 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_210 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_210 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_210 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_211 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_211 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_211 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_212 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_212 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_212 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_213 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_213 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_213 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_214 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_214 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_214 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_215 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_215 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_215 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_216 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_216 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_216 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_217 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_217 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_217 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_218 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_218 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_218 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_219 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_219 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_219 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_220 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_220 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_220 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_221 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_221 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_221 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_222 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_222 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_222 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_223 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_223 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_223 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_224 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_224 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_224 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_225 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_225 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_225 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_226 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_226 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_226 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_227 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_227 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_227 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_228 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_228 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_228 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_229 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_229 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_229 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_230 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_230 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_230 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_231 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_231 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_231 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_232 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_232 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_232 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_233 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_233 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_233 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_234 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_234 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_234 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_235 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_235 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_235 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_236 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_236 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_236 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_237 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_237 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_237 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_238 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_238 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_238 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_239 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_239 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_239 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_240 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_240 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_240 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_241 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_241 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_241 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_242 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_242 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_242 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_243 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_243 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_243 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_244 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_244 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_244 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_245 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_245 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_245 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_246 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_246 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_246 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_247 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_247 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_247 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_248 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_248 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_248 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_249 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_249 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_249 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_250 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_250 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_250 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_251 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_251 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_251 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_252 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_252 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_252 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_253 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_253 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_253 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_254 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_254 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_254 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_255 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_255 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_255 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_256 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_256 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_256 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_257 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_257 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_257 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_258 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_258 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_258 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_259 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_259 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_259 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_260 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_260 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_260 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_261 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_261 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_261 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_262 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_262 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_262 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_263 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_263 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_263 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_264 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_264 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_264 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_265 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_265 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_265 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_266 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_266 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_266 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_267 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_267 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_267 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_268 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_268 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_268 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_269 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_269 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_269 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_270 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_270 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_270 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_271 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_271 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_271 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_272 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_272 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_272 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_273 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_273 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_273 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_274 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_274 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_274 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_275 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_275 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_275 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_276 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_276 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_276 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_277 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_277 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_277 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_278 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_278 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_278 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_279 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_279 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_279 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_280 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_280 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_280 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object 93A4BC86C9218B9511DCFAE41D42B8AC_281 report :
+ 93A4BC86C9218B9511DCFAE41D42B8AC_281 trying (bnl_condor_RCF_quick)
+93A4BC86C9218B9511DCFAE41D42B8AC_281 assigned to (bnl_condor_RCF_quick)
+ 
+
+End of Report
+

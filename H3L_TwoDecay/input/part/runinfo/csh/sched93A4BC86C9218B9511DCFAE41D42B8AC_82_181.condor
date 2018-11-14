@@ -1,0 +1,1500 @@
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_181.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_181.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_181.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_181.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_180.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_180.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_180.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_180.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_179.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_179.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_179.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_179.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_178.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_178.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_178.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_178.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_177.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_177.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_177.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_177.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_176.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_176.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_176.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_176.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_175.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_175.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_175.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_175.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_174.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_174.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_174.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_174.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_173.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_173.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_173.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_173.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_172.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_172.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_172.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_172.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_171.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_171.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_171.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_171.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_170.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_170.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_170.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_170.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_169.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_169.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_169.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_169.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_168.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_168.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_168.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_168.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_167.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_167.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_167.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_167.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_166.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_166.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_166.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_166.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_165.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_165.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_165.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_165.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_164.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_164.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_164.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_164.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_163.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_163.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_163.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_163.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_162.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_162.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_162.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_162.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_161.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_161.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_161.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_161.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_160.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_160.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_160.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_160.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_159.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_159.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_159.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_159.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_158.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_158.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_158.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_158.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_157.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_157.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_157.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_157.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_156.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_156.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_156.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_156.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_155.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_155.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_155.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_155.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_154.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_154.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_154.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_154.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_153.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_153.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_153.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_153.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_152.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_152.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_152.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_152.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_151.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_151.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_151.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_151.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_150.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_150.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_150.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_150.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_149.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_149.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_149.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_149.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_148.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_148.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_148.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_148.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_147.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_147.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_147.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_147.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_146.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_146.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_146.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_146.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_145.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_145.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_145.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_145.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_144.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_144.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_144.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_144.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_143.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_143.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_143.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_143.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_142.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_142.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_142.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_142.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_141.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_141.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_141.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_141.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_140.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_140.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_140.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_140.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_139.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_139.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_139.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_139.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_138.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_138.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_138.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_138.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_137.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_137.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_137.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_137.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_136.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_136.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_136.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_136.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_135.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_135.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_135.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_135.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_134.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_134.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_134.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_134.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_133.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_133.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_133.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_133.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_132.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_132.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_132.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_132.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_131.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_131.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_131.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_131.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_130.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_130.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_130.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_130.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_129.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_129.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_129.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_129.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_128.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_128.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_128.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_128.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_127.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_127.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_127.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_127.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_126.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_126.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_126.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_126.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_125.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_125.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_125.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_125.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_124.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_124.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_124.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_124.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_123.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_123.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_123.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_123.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_122.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_122.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_122.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_122.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_121.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_121.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_121.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_121.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_120.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_120.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_120.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_120.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_119.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_119.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_119.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_119.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_118.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_118.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_118.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_118.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_117.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_117.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_117.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_117.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_116.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_116.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_116.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_116.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_115.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_115.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_115.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_115.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_114.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_114.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_114.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_114.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_113.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_113.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_113.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_113.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_112.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_112.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_112.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_112.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_111.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_111.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_111.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_111.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_110.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_110.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_110.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_110.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_109.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_109.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_109.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_109.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_108.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_108.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_108.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_108.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_107.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_107.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_107.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_107.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_106.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_106.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_106.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_106.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_105.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_105.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_105.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_105.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_104.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_104.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_104.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_104.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_103.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_103.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_103.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_103.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_102.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_102.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_102.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_102.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_101.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_101.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_101.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_101.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_100.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_100.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_100.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_100.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_99.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_99.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_99.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_99.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_98.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_98.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_98.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_98.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_97.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_97.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_97.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_97.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_96.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_96.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_96.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_96.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_95.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_95.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_95.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_95.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_94.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_94.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_94.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_94.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_93.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_93.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_93.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_93.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_92.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_92.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_92.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_92.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_91.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_91.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_91.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_91.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_90.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_90.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_90.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_90.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_89.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_89.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_89.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_89.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_88.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_88.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_88.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_88.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_87.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_87.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_87.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_87.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_86.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_86.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_86.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_86.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_85.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_85.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_85.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_85.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_84.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_84.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_84.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_84.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_83.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_83.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_83.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_83.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/csh/sched93A4BC86C9218B9511DCFAE41D42B8AC_82.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/out/93A4BC86C9218B9511DCFAE41D42B8AC_82.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/err/93A4BC86C9218B9511DCFAE41D42B8AC_82.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part/runinfo/report/sched93A4BC86C9218B9511DCFAE41D42B8AC_82.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
