@@ -1,0 +1,47 @@
+000 (6327816.000.000) 11/14 12:57:22 Job submitted from host: <130.199.153.67:9618?addrs=130.199.153.67-9618&noUDP&sock=7357_7f42_4>
+...
+001 (6327816.000.000) 11/14 12:58:15 Job executing on host: <130.199.153.104:9618?addrs=130.199.153.104-9618&noUDP&sock=22151_9c81_3>
+...
+006 (6327816.000.000) 11/14 12:58:23 Image size of job updated: 1005756
+	957  -  MemoryUsage of job (MB)
+	979200  -  ResidentSetSize of job (KB)
+...
+006 (6327816.000.000) 11/14 13:03:23 Image size of job updated: 1056304
+	1006  -  MemoryUsage of job (MB)
+	1029748  -  ResidentSetSize of job (KB)
+...
+006 (6327816.000.000) 11/14 13:08:24 Image size of job updated: 1058920
+	1009  -  MemoryUsage of job (MB)
+	1032364  -  ResidentSetSize of job (KB)
+...
+006 (6327816.000.000) 11/14 13:13:24 Image size of job updated: 1073340
+	1023  -  MemoryUsage of job (MB)
+	1046784  -  ResidentSetSize of job (KB)
+...
+006 (6327816.000.000) 11/14 13:18:24 Image size of job updated: 1073748
+	1023  -  MemoryUsage of job (MB)
+	1047192  -  ResidentSetSize of job (KB)
+...
+006 (6327816.000.000) 11/14 13:23:25 Image size of job updated: 1188904
+	1136  -  MemoryUsage of job (MB)
+	1162348  -  ResidentSetSize of job (KB)
+...
+006 (6327816.000.000) 11/14 13:28:26 Image size of job updated: 1188924
+	1136  -  MemoryUsage of job (MB)
+	1162368  -  ResidentSetSize of job (KB)
+...
+005 (6327816.000.000) 11/14 13:31:50 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:32:57, Sys 0 00:00:24  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:32:57, Sys 0 00:00:24  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       10       10  47328099
+	   Memory (MB)          :     1136        1      2005
+...

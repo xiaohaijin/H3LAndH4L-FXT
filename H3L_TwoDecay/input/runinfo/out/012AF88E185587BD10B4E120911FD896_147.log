@@ -1,0 +1,18 @@
+We are starting on node: rcas6506.rcf.bnl.gov
+HOME is not defined
+Using getent method
+HOME is now /star/u/jhai
+785 We will spawn ourselves (/star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/runinfo/csh/sched012AF88E185587BD10B4E120911FD896_147.csh )
+785 We BEGIN on [Wed Nov 14 12:58:10 EST 2018]
+[1] 941
+785 We are waiting for 941 
+785 Grandchild PID is 29410 - found in 0 x 1 seconds
+785 Establishing first watcher   on    Wed Nov 14 12:58:10 EST 2018
+785 Process tree is 785 (main) -> 941 (child) -> 29410 (grandchild)
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY        TIME CMD
+1 S     0 29410     2  0  80   0 -     0 worker ?          0:00 [kworker/0:0]
+785 Grandchild PID is 14941 - found in 820 x 2 seconds
+785 Grandchild to watch has changed on Wed Nov 14 13:25:48 EST 2018
+785 Process tree is 785 (main) -> 941 (child) -> 14941 (grandchild)
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY        TIME CMD
+4 S     0 14941     1  0  60 -20 - 30722 do_wai ?          0:02 /usr/lpp/mmfs/bin/mmksh /usr/lpp/mmfs/bin/runmmfs

@@ -1,0 +1,47 @@
+000 (6327803.000.000) 11/14 12:57:22 Job submitted from host: <130.199.153.67:9618?addrs=130.199.153.67-9618&noUDP&sock=7357_7f42_4>
+...
+001 (6327803.000.000) 11/14 12:58:12 Job executing on host: <130.199.202.17:9618?addrs=130.199.202.17-9618&noUDP&sock=45046_96fe_3>
+...
+006 (6327803.000.000) 11/14 12:58:21 Image size of job updated: 977448
+	955  -  MemoryUsage of job (MB)
+	977264  -  ResidentSetSize of job (KB)
+...
+006 (6327803.000.000) 11/14 13:03:22 Image size of job updated: 1050624
+	1026  -  MemoryUsage of job (MB)
+	1050440  -  ResidentSetSize of job (KB)
+...
+006 (6327803.000.000) 11/14 13:08:22 Image size of job updated: 1051980
+	1028  -  MemoryUsage of job (MB)
+	1051796  -  ResidentSetSize of job (KB)
+...
+006 (6327803.000.000) 11/14 13:13:22 Image size of job updated: 1053100
+	1029  -  MemoryUsage of job (MB)
+	1052916  -  ResidentSetSize of job (KB)
+...
+006 (6327803.000.000) 11/14 13:18:23 Image size of job updated: 1053232
+	1029  -  MemoryUsage of job (MB)
+	1053048  -  ResidentSetSize of job (KB)
+...
+006 (6327803.000.000) 11/14 13:23:24 Image size of job updated: 1053272
+	1029  -  MemoryUsage of job (MB)
+	1053088  -  ResidentSetSize of job (KB)
+...
+006 (6327803.000.000) 11/14 13:26:55 Image size of job updated: 1208908
+	1029  -  MemoryUsage of job (MB)
+	1053088  -  ResidentSetSize of job (KB)
+...
+005 (6327803.000.000) 11/14 13:26:55 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:28:27, Sys 0 00:00:31  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:28:27, Sys 0 00:00:31  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       10       10  47541352
+	   Memory (MB)          :     1029        1      2008
+...

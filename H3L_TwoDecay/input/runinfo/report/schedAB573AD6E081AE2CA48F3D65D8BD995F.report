@@ -1,0 +1,95 @@
+STAR Unified Meta Scheduler 1.10.28
+File generated at : Wed Nov 14 12:47:52 EST 2018
+This file is a detailed report of SUMS meta job AB573AD6E081AE2CA48F3D65D8BD995F and its 10 processes.
+
+Jobs table :
++------------------------------------------------------------Jobs Of Request AB573AD6E081AE2CA48F3D65D8BD995F--------------------------------------------------------------+
++------------------------------------+----------------------+-------+--------+------------+--------+-----------------------+----------------------+---------+--------------+
+| Job_ID                             | Queue                | Files | Events | estRunTime | Target | SubmitTime            | Dispatcher           | Success | DispatchTime |
++------------------------------------+----------------------+-------+--------+------------+--------+-----------------------+----------------------+---------+--------------+
+| AB573AD6E081AE2CA48F3D65D8BD995F_0 | bnl_condor_RCF_quick | 1     | 40     | n/a        | Any    | 14/11/2018 12:47:52PM | CondorFastDispatcher | YES     | 1ms          |
+| AB573AD6E081AE2CA48F3D65D8BD995F_1 | bnl_condor_RCF_quick | 1     | 48     | n/a        | Any    | 14/11/2018 12:47:52PM | CondorFastDispatcher | YES     | 1ms          |
+| AB573AD6E081AE2CA48F3D65D8BD995F_2 | bnl_condor_RCF_quick | 1     | 128    | n/a        | Any    | 14/11/2018 12:47:52PM | CondorFastDispatcher | YES     | 1ms          |
+| AB573AD6E081AE2CA48F3D65D8BD995F_3 | bnl_condor_RCF_quick | 1     | 130    | n/a        | Any    | 14/11/2018 12:47:52PM | CondorFastDispatcher | YES     | 1ms          |
+| AB573AD6E081AE2CA48F3D65D8BD995F_4 | bnl_condor_RCF_quick | 1     | 171    | n/a        | Any    | 14/11/2018 12:47:52PM | CondorFastDispatcher | YES     | 1ms          |
+| AB573AD6E081AE2CA48F3D65D8BD995F_5 | bnl_condor_RCF_quick | 1     | 146    | n/a        | Any    | 14/11/2018 12:47:52PM | CondorFastDispatcher | YES     | 1ms          |
+| AB573AD6E081AE2CA48F3D65D8BD995F_6 | bnl_condor_RCF_quick | 1     | 146    | n/a        | Any    | 14/11/2018 12:47:52PM | CondorFastDispatcher | YES     | 1ms          |
+| AB573AD6E081AE2CA48F3D65D8BD995F_7 | bnl_condor_RCF_quick | 1     | 175    | n/a        | Any    | 14/11/2018 12:47:52PM | CondorFastDispatcher | YES     | 1ms          |
+| AB573AD6E081AE2CA48F3D65D8BD995F_8 | bnl_condor_RCF_quick | 1     | 203    | n/a        | Any    | 14/11/2018 12:47:52PM | CondorFastDispatcher | YES     | 1ms          |
+| AB573AD6E081AE2CA48F3D65D8BD995F_9 | bnl_condor_RCF_quick | 1     | 257    | n/a        | Any    | 14/11/2018 12:47:52PM | CondorFastDispatcher | YES     | 1ms          |
++------------------------------------+----------------------+-------+--------+------------+--------+-----------------------+----------------------+---------+--------------+
+Request object report :
+ 
++----------------------------------------------Queues-----------------------------------------------+
++-------------------------+------+--------+-----------+---------+-------+--------+------------------+
+| ID                      | Name | Type   | TimeLimit | MaxMem  | Local | S.O.P. | Cluster          |
++-------------------------+------+--------+-----------+---------+-------+--------+------------------+
+| bnl_condor_RCF_quick    |      | CONDOR | 300min    | none    | N     | 1      | rcrs.rcf.bnl.gov |
+| bnl_condor_short_quick  |      | CONDOR | 180min    | 10000MB | N     | 10     | rcrs.rcf.bnl.gov |
+| BNL_condor_medium_quick |      | CONDOR | 300min    | 10000MB | N     | 50     | rcrs.rcf.bnl.gov |
+| bnl_condor_long_quick   |      | CONDOR | 7200min   | 10000MB | N     | 100    | rcrs.rcf.bnl.gov |
++-------------------------+------+--------+-----------+---------+-------+--------+------------------+
+
+*************************************************************************
+
+*   This is a history of Job assignments.                               *
+
+*   If your Jobs are going to the wrong queue, this may tell you why.   *
+
+*************************************************************************
+
+
+
+
+Job object AB573AD6E081AE2CA48F3D65D8BD995F_0 report :
+ AB573AD6E081AE2CA48F3D65D8BD995F_0 trying (bnl_condor_RCF_quick)
+AB573AD6E081AE2CA48F3D65D8BD995F_0 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object AB573AD6E081AE2CA48F3D65D8BD995F_1 report :
+ AB573AD6E081AE2CA48F3D65D8BD995F_1 trying (bnl_condor_RCF_quick)
+AB573AD6E081AE2CA48F3D65D8BD995F_1 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object AB573AD6E081AE2CA48F3D65D8BD995F_2 report :
+ AB573AD6E081AE2CA48F3D65D8BD995F_2 trying (bnl_condor_RCF_quick)
+AB573AD6E081AE2CA48F3D65D8BD995F_2 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object AB573AD6E081AE2CA48F3D65D8BD995F_3 report :
+ AB573AD6E081AE2CA48F3D65D8BD995F_3 trying (bnl_condor_RCF_quick)
+AB573AD6E081AE2CA48F3D65D8BD995F_3 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object AB573AD6E081AE2CA48F3D65D8BD995F_4 report :
+ AB573AD6E081AE2CA48F3D65D8BD995F_4 trying (bnl_condor_RCF_quick)
+AB573AD6E081AE2CA48F3D65D8BD995F_4 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object AB573AD6E081AE2CA48F3D65D8BD995F_5 report :
+ AB573AD6E081AE2CA48F3D65D8BD995F_5 trying (bnl_condor_RCF_quick)
+AB573AD6E081AE2CA48F3D65D8BD995F_5 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object AB573AD6E081AE2CA48F3D65D8BD995F_6 report :
+ AB573AD6E081AE2CA48F3D65D8BD995F_6 trying (bnl_condor_RCF_quick)
+AB573AD6E081AE2CA48F3D65D8BD995F_6 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object AB573AD6E081AE2CA48F3D65D8BD995F_7 report :
+ AB573AD6E081AE2CA48F3D65D8BD995F_7 trying (bnl_condor_RCF_quick)
+AB573AD6E081AE2CA48F3D65D8BD995F_7 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object AB573AD6E081AE2CA48F3D65D8BD995F_8 report :
+ AB573AD6E081AE2CA48F3D65D8BD995F_8 trying (bnl_condor_RCF_quick)
+AB573AD6E081AE2CA48F3D65D8BD995F_8 assigned to (bnl_condor_RCF_quick)
+ 
+
+Job object AB573AD6E081AE2CA48F3D65D8BD995F_9 report :
+ AB573AD6E081AE2CA48F3D65D8BD995F_9 trying (bnl_condor_RCF_quick)
+AB573AD6E081AE2CA48F3D65D8BD995F_9 assigned to (bnl_condor_RCF_quick)
+ 
+
+End of Report
+

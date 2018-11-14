@@ -1,0 +1,27 @@
+We are starting on node: rcas6354.rcf.bnl.gov
+HOME is not defined
+Using getent method
+HOME is now /star/u/jhai
+6384 We will spawn ourselves (/star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/runinfo/csh/sched012AF88E185587BD10B4E120911FD896_261.csh )
+6384 We BEGIN on [Wed Nov 14 12:57:51 EST 2018]
+[1] 6682
+6384 We are waiting for 6682 
+6384 Grandchild PID is 6701 - found in 0 x 1 seconds
+6384 Establishing first watcher   on    Wed Nov 14 12:57:51 EST 2018
+6384 Process tree is 6384 (main) -> 6682 (child) -> 6701 (grandchild)
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY        TIME CMD
+6384 Grandchild PID is 6866 - found in 10 x 2 seconds
+6384 Grandchild to watch has changed on Wed Nov 14 12:58:11 EST 2018
+6384 Process tree is 6384 (main) -> 6682 (child) -> 6866 (grandchild)
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY        TIME CMD
+0 R 11732  6866  6682 90  80   0 - 326163 -     ?          0:18 root4star -q -b reco.C("/star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/runinfo/list/sched012AF88E185587BD10B4E120911FD896_261.list",1,0,"/tmp/jhai/012AF88E185587BD10B4E120911FD896_261/","012AF88E185587BD10B4E120911FD896_261")
+6384 Grandchild PID is 36682 - found in 450 x 2 seconds
+6384 Grandchild to watch has changed on Wed Nov 14 13:13:05 EST 2018
+6384 Process tree is 6384 (main) -> 6682 (child) -> 36682 (grandchild)
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY        TIME CMD
+0 S 11535 36682 40911  0  80   0 -  1589 hrtime ?          0:00 sleep 2
+6384 Grandchild PID is 6866 - found in 460 x 2 seconds
+6384 Grandchild to watch has changed on Wed Nov 14 13:13:26 EST 2018
+6384 Process tree is 6384 (main) -> 6682 (child) -> 6866 (grandchild)
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY        TIME CMD
+0 R 11732  6866  6682 98  80   0 - 326459 -     ?         15:21 root4star -q -b reco.C("/star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/runinfo/list/sched012AF88E185587BD10B4E120911FD896_261.list",1,0,"/tmp/jhai/012AF88E185587BD10B4E120911FD896_261/","012AF88E185587BD10B4E120911FD896_261")

@@ -1,0 +1,17 @@
+We are starting on node: rcas6330.rcf.bnl.gov
+HOME is not defined
+Using getent method
+HOME is now /star/u/jhai
+19810 We will spawn ourselves (/star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/runinfo/csh/sched012AF88E185587BD10B4E120911FD896_207.csh )
+19810 We BEGIN on [Wed Nov 14 12:58:01 EST 2018]
+[1] 19982
+19810 We are waiting for 19982 
+19810 Grandchild PID is 19993 - found in 0 x 1 seconds
+19810 Establishing first watcher   on    Wed Nov 14 12:58:01 EST 2018
+19810 Process tree is 19810 (main) -> 19982 (child) -> 19993 (grandchild)
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY        TIME CMD
+19810 Grandchild PID is 20167 - found in 10 x 2 seconds
+19810 Grandchild to watch has changed on Wed Nov 14 12:58:21 EST 2018
+19810 Process tree is 19810 (main) -> 19982 (child) -> 20167 (grandchild)
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY        TIME CMD
+0 R 11732 20167 19982 83  80   0 - 303135 -     ?          0:16 root4star -q -b reco.C("/star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/H3L_TwoDecay/input/runinfo/list/sched012AF88E185587BD10B4E120911FD896_207.list",1,0,"/tmp/jhai/012AF88E185587BD10B4E120911FD896_207/","012AF88E185587BD10B4E120911FD896_207")
