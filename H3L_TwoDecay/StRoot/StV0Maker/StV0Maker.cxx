@@ -138,6 +138,7 @@ void StV0Maker::initParam()
     f_dedx_th1.open("/star/u/jhai/dedx/dedx_mean_helium3.dat");
     for (int i = 0; i < 11901; i++) {
         f_dedx_th1 >> temp1 >> dedx_dau1_th[i];
+        std::cout << "This is ok ?" << std::endl;
     }
 
     f_dedx_th1.close();
