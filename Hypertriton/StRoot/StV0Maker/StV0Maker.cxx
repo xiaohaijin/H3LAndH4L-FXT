@@ -18,7 +18,7 @@
 #include "StStrangeMuDstMaker/StV0MuDst.hh"
 //#include "StStrangeMuDstMaker/StStrangeEvMuDst.hh"
 
-#define XIAOHAI
+//#define XIAOHAI
 #ifdef XIAOHAI
 #include "tofPathLength.hh"
 #include "COMMON/StMuDstMaker.h"
