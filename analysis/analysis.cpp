@@ -42,17 +42,21 @@
 
 using namespace std;
 
-TH1D* v0Mass = new TH1D("v0Mass", "v0Mass", 500, 1.07, 1.17);
-TH1D* v0Mass0 = new TH1D("v0Mass0", "v0Mass0", 500, 1.07, 1.17);
-TH1D* v0Mass1 = new TH1D("v0Mass1", "v0Mass1", 500, 1.07, 1.17);
-TH1D* v0Mass2 = new TH1D("v0Mass2", "v0Mass2", 500, 1.07, 1.17);
-TH1D* v0Mass3 = new TH1D("v0Mass3", "v0Mass3", 500, 1.07, 1.17);
-TH1D* v0Mass4 = new TH1D("v0Mass4", "v0Mass4", 500, 1.07, 1.17);
-TH1D* v0Mass5 = new TH1D("v0Mass5", "v0Mass5", 500, 1.07, 1.17);
-TH1D* v0Mass6 = new TH1D("v0Mass6", "v0Mass6", 500, 1.07, 1.17);
-TH1D* v0Mass7 = new TH1D("v0Mass7", "v0Mass7", 500, 1.07, 1.17);
-TH1D* v0Mass8 = new TH1D("v0Mass8", "v0Mass8", 500, 1.07, 1.17);
-TH1D* v0Mass9 = new TH1D("v0Mass9", "v0Mass9", 500, 1.07, 1.17);
+const int BINS = 42;
+const double lowValue = 2.93;
+const double highValue = 3.1;
+
+TH1D* v0Mass = new TH1D("v0Mass", "v0Mass", BINS, lowValue, highValue);
+TH1D* v0Mass0 = new TH1D("v0Mass0", "v0Mass0", BINS, lowValue, highValue);
+TH1D* v0Mass1 = new TH1D("v0Mass1", "v0Mass1", BINS, lowValue, highValue);
+TH1D* v0Mass2 = new TH1D("v0Mass2", "v0Mass2", BINS, lowValue, highValue);
+TH1D* v0Mass3 = new TH1D("v0Mass3", "v0Mass3", BINS, lowValue, highValue);
+TH1D* v0Mass4 = new TH1D("v0Mass4", "v0Mass4", BINS, lowValue, highValue);
+TH1D* v0Mass5 = new TH1D("v0Mass5", "v0Mass5", BINS, lowValue, highValue);
+TH1D* v0Mass6 = new TH1D("v0Mass6", "v0Mass6", BINS, lowValue, highValue);
+TH1D* v0Mass7 = new TH1D("v0Mass7", "v0Mass7", BINS, lowValue, highValue);
+TH1D* v0Mass8 = new TH1D("v0Mass8", "v0Mass8", BINS, lowValue, highValue);
+TH1D* v0Mass9 = new TH1D("v0Mass9", "v0Mass9", BINS, lowValue, highValue);
 
 int main(int argc, char* argv[])
 {
