@@ -2,7 +2,7 @@
 
 #include "StRoot/StV0Maker/StV0Type.h"
 
-#define XIAOHAI
+//#define XIAOHAI
 #ifdef XIAOHAI
 #include "StChain.h"
 #include "TChain.h"
