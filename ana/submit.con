@@ -1,0 +1,13 @@
+#+IsPickleJob = true
+#requirements = TARGET.IsPickleSlot
+Universe     = vanilla
+Notification = Error
+Initialdir   = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/analysis
+Executable   = $(Initialdir)/script.sh
+getenv       = true
+notification = Complete
+Arguments    = $(Process)
+Log          = $(Initialdir)/log/job00_$(Process).log
+Output       = $(Initialdir)/log/job00_$(Process).out
+Error        = $(Initialdir)/log/job00_$(Process).err
+Queue 1
