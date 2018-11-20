@@ -110,18 +110,18 @@ void StV0Maker::initParam()
 
     cutAbsNSigma2Le = 3.0;
 
-    cutDca1GrEq = 0.001;
-    cutDca2GrEq = 0.001;
+    cutDca1GrEq = 0.00;
+    cutDca2GrEq = 0.5;
 
-    cutDca1to2LeEq = 0.05;
+    cutDca1to2LeEq = 1.0;
     cutV0MassWidthLeEq = 0.5;
     cutDauPtArmLeEq = 0.3;
     cutAbsDausPtShoulderDiffLeEq = 1.2;
     cutDau1DecAngGr = 0.0;
     cutDau2DecAngGr = 0.0;
     cutV0rdotpGr = 0.0;
-    cutDcaV0Le = 0.05;
-    cutV0DecLenGrEq = 0.02;
+    cutDcaV0Le = 1.0;
+    cutV0DecLenGrEq = 1.0;
 
     RotDegree = 180.0; // Rotate one dau to estimate background level.
 
@@ -504,12 +504,12 @@ Int_t StV0Maker::Make()
             continue; // Let's comment out this line for checking
         if (fabs(track->eta()) > 2.0)
             continue; // 1.0 to 1.5 to include more He3, pion should keep (-1.,1.0)
-        //		if(Float_t(nHitsFit)/Float_t(track->nHitsPoss())<0.52)continue;
-        //		if(Float_t(nHitsFit)/Float_t(track->nHitsPoss())>1.02)continue;
+        		if(Float_t(nHitsFit)/Float_t(track->nHitsPoss())<0.52)continue;
+        		if(Float_t(nHitsFit)/Float_t(track->nHitsPoss())>1.02)continue;
         if (p.perp() < cutPtGrEq)
             continue; // should be larger. like 0.15 or 0.2
-        if (dca.mag() > 3.0)
-            continue;
+        // if (dca.mag() > 3.0)
+        //     continue;
 
         hnSigmaProton->Fill(p.mag() * charge, nsigmaproton);
         hnSigmaPion->Fill(p.mag() * charge, nsigmapion);
