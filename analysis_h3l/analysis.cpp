@@ -152,71 +152,67 @@ int main(int argc, char* argv[])
         }
 
         for (int t = 0; t != tracks; ++t) {
-	  
-	  if(v0->dau1eta[t] > 0 || v0->dau2eta[t] > 0){
+
+	  // eta cut
+	  if(v0->dau1eta[t] > 0 || v0->dau2eta[t] > 0 || v0->dau1eta[t] < -2 || v0->dau2eta[t] < -2){
 	    continue;
 	  }
-            v0Mass9->Fill(static_cast<double>(v0->v0mass[t]));
+	  v0Mass9->Fill(static_cast<double>(v0->v0mass[t]));
+	  
 
-            if (v0->dau1nhitsfit[t] <= 16 || v0->dau2nhitsfit[t] <= 16) {
-	      continue;
-            }
-            v0Mass8->Fill(static_cast<double>(v0->v0mass[t]));
-
-	    
-            if (v0->dau1nhitsdedx[t] <= 0 || v0->dau2nhitsdedx[t] <= 0) {
-	      continue;
-            }
-            v0Mass7->Fill(static_cast<double>(v0->v0mass[t]));
+	  if (v0->dau1nhitsfit[t] <= 10 || v0->dau2nhitsfit[t] <= 10) {
+	    continue;
+	  }
+	  v0Mass8->Fill(static_cast<double>(v0->v0mass[t]));
 
 	    
-            if (fabs(v0->dau2nsigma[t]) > 3.0f) {
-	      continue;
-            }
-	    if(v0->dau1Z[t] < -0.1 || v0->dau1Z[t] > 0.3){
-	      continue;
-	    }
-            v0Mass6->Fill(static_cast<double>(v0->v0mass[t]));
+	  if (v0->dau1nhitsdedx[t] <= 0 || v0->dau2nhitsdedx[t] <= 0) {
+	    continue;
+	  }
+	  v0Mass7->Fill(static_cast<double>(v0->v0mass[t]));
 
-            if (v0->dau1pt[t] < 1.f || v0->dau2pt[t] < 0.2f) {
-	      continue;
-            }
-            v0Mass5->Fill(static_cast<double>(v0->v0mass[t]));
+	  
+	  if (fabs(v0->dau2nsigma[t]) > 3.0f || v0->dau1Z[t] < -0.1 || v0->dau1Z[t] > 0.3) {
+	    continue;
+	  }
+	  v0Mass6->Fill(static_cast<double>(v0->v0mass[t]));
 
+	  
+	  if (v0->dau1pt[t] < 1.0f || v0->dau2pt[t] < 0.15f) {
+	    continue;
+	  }
+	  v0Mass5->Fill(static_cast<double>(v0->v0mass[t]));
 
-
-
+  
+	  if (v0->dau1dca[t] < 0.0f || v0->dau1dca[t] > 1.0f) {
+	    continue;
+	  }
+	  v0Mass4->Fill(static_cast<double>(v0->v0mass[t]));
 	    
-	    
-            if (v0->dau1dca[t] > 1.0f) {
-	      continue;
-            }
-            v0Mass4->Fill(static_cast<double>(v0->v0mass[t]));
-	    
-            if (v0->dau2dca[t] < 1.6) {
-	      continue;
-            }
-            v0Mass3->Fill(static_cast<double>(v0->v0mass[t]));
+	  if (v0->dau2dca[t] < 1.5 || v0->dau2dca[t] > 15) {
+	    continue;
+	  }
+	  v0Mass3->Fill(static_cast<double>(v0->v0mass[t]));
 
-            if (v0->dca1to2[t] > 1.0f) {
-	      continue;
-            }
-            v0Mass2->Fill(static_cast<double>(v0->v0mass[t]));
+	  if (v0->dca1to2[t] > 0.7f) {
+	    continue;
+	  }
+	  v0Mass2->Fill(static_cast<double>(v0->v0mass[t]));
 
-            if (v0->v0declen[t] < 7) {
-	      continue;
-            }
-            v0Mass1->Fill(static_cast<double>(v0->v0mass[t]));
+	  if (v0->v0declen[t] < 5) {
+	    continue;
+	  }
+	  v0Mass1->Fill(static_cast<double>(v0->v0mass[t]));
 
-	    if(v0->v0rdotp[t] < 0){
-	      continue;
-	    }
-            v0Mass0->Fill(static_cast<double>(v0->v0mass[t]));
+	  if(v0->v0rdotp[t] < 0){
+	    continue;
+	  }
+	  v0Mass0->Fill(static_cast<double>(v0->v0mass[t]));
 
-            if (v0->v0dca[t] > 1.0f) {
-	      continue;
-            }
-            v0Mass->Fill(static_cast<double>(v0->v0mass[t]));
+	  if (v0->v0dca[t] > 1.0f) {
+	    continue;
+	  }
+	  v0Mass->Fill(static_cast<double>(v0->v0mass[t]));
         }
     }
 

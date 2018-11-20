@@ -42,9 +42,9 @@
 
 using namespace std;
 
-const int BINS = 42;
-const double lowValue = 2.93;
-const double highValue = 3.1;
+const int BINS = 500;
+const double lowValue = 1.07;
+const double highValue = 1.17;
 
 TH1D* v0Mass = new TH1D("v0Mass", "v0Mass", BINS, lowValue, highValue);
 TH1D* v0Mass0 = new TH1D("v0Mass0", "v0Mass0", BINS, lowValue, highValue);
@@ -148,7 +148,7 @@ int main(int argc, char* argv[])
         tracks = v0->nv0;
 
         if (v0->primvertexZ < 210 || v0->primvertexZ > 212) {
-            break;
+            continue;
         }
 
         for (int t = 0; t != tracks; ++t) {
@@ -156,42 +156,42 @@ int main(int argc, char* argv[])
             v0Mass9->Fill(static_cast<double>(v0->v0mass[t]));
 
             if (v0->dau1nhitsfit[t] <= 10 || v0->dau2nhitsfit[t] <= 10) {
-                break;
+                continue;
             }
             v0Mass8->Fill(static_cast<double>(v0->v0mass[t]));
 
             if (v0->dau1nhitsdedx[t] <= 0 || v0->dau2nhitsdedx[t] <= 0) {
-                break;
+                continue;
             }
             v0Mass7->Fill(static_cast<double>(v0->v0mass[t]));
 
             if (v0->dau1nsigma[t] > 2.f || v0->dau2nsigma[t] > 2.0f) {
-                break;
+                continue;
             }
             v0Mass6->Fill(static_cast<double>(v0->v0mass[t]));
 
             if (v0->dau1pt[t] < 0.2f || v0->dau2pt[t] < 0.1f) {
-                break;
+                continue;
             }
             v0Mass5->Fill(static_cast<double>(v0->v0mass[t]));
 
             if (v0->dau1dca[t] < 0.9f || v0->dau1dca[t] > 8.0f) {
-                break;
+                continue;
             }
             v0Mass4->Fill(static_cast<double>(v0->v0mass[t]));
 
             if (v0->dau2dca[t] < 1.0f || v0->dau2dca[t] > 8.0f) {
-                break;
+                continue;
             }
             v0Mass3->Fill(static_cast<double>(v0->v0mass[t]));
 
             if (v0->dca1to2[t] > 1.0f) {
-                break;
+                continue;
             }
             v0Mass2->Fill(static_cast<double>(v0->v0mass[t]));
 
             if (v0->v0declen[t] < 7.0f) {
-                break;
+                continue;
             }
             v0Mass1->Fill(static_cast<double>(v0->v0mass[t]));
 
@@ -201,7 +201,7 @@ int main(int argc, char* argv[])
             v0Mass0->Fill(static_cast<double>(v0->v0mass[t]));
 
             if (v0->v0dca[t] > 1.0f) {
-                break;
+                continue;
             }
 
             v0Mass->Fill(static_cast<double>(v0->v0mass[t]));

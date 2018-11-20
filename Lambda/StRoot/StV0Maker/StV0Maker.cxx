@@ -115,7 +115,7 @@ void StV0Maker::initParam()
     cutNHitsDedxGr = 0; /*!< done */
     cutPtGrEq = 0.1; /*!< done, this is not asymmetric. */
 
-    cutAbsNSigma2Le = 2.0; /*!< done */
+    cutAbsNSigma2Le = 3.0; /*!< done */
 
     cutDca1GrEq = 0.9; /*!< done */
     cutDca2GrEq = 0.9; /*!< done */
