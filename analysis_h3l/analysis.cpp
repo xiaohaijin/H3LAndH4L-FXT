@@ -178,7 +178,7 @@ int main(int argc, char* argv[])
 	  v0Mass6->Fill(static_cast<double>(v0->v0mass[t]));
 
 	  
-	  if (v0->dau1pt[t] < 1.0f || v0->dau2pt[t] < 0.15f) {
+	  if (v0->dau1pt[t] < 0.7f || v0->dau2pt[t] < 0.15f) {
 	    continue;
 	  }
 	  v0Mass5->Fill(static_cast<double>(v0->v0mass[t]));
