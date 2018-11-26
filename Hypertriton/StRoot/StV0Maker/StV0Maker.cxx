@@ -726,8 +726,8 @@ Int_t StV0Maker::Make()
             Double_t dcav0toPV = dcav0tmp.mag();
 
             // cut on v0 dca.
-            if (dcav0toPV >= cutDcaV0Le)
-                continue;
+            // if (dcav0toPV >= cutDcaV0Le)
+            //     continue;
             if (fabs(pathlengthv0) < cutV0DecLenGrEq)
                 continue;
 
