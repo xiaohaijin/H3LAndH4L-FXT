@@ -1,0 +1,1500 @@
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_181.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_181.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_181.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_181.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_180.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_180.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_180.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_180.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_179.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_179.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_179.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_179.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_178.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_178.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_178.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_178.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_177.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_177.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_177.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_177.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_176.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_176.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_176.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_176.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_175.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_175.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_175.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_175.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_174.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_174.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_174.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_174.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_173.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_173.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_173.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_173.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_172.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_172.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_172.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_172.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_171.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_171.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_171.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_171.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_170.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_170.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_170.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_170.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_169.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_169.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_169.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_169.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_168.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_168.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_168.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_168.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_167.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_167.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_167.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_167.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_166.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_166.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_166.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_166.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_165.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_165.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_165.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_165.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_164.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_164.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_164.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_164.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_163.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_163.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_163.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_163.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_162.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_162.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_162.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_162.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_161.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_161.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_161.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_161.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_160.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_160.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_160.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_160.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_159.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_159.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_159.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_159.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_158.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_158.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_158.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_158.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_157.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_157.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_157.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_157.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_156.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_156.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_156.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_156.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_155.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_155.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_155.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_155.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_154.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_154.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_154.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_154.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_153.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_153.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_153.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_153.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_152.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_152.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_152.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_152.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_151.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_151.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_151.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_151.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_150.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_150.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_150.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_150.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_149.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_149.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_149.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_149.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_148.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_148.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_148.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_148.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_147.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_147.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_147.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_147.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_146.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_146.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_146.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_146.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_145.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_145.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_145.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_145.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_144.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_144.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_144.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_144.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_143.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_143.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_143.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_143.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_142.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_142.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_142.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_142.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_141.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_141.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_141.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_141.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_140.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_140.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_140.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_140.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_139.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_139.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_139.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_139.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_138.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_138.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_138.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_138.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_137.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_137.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_137.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_137.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_136.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_136.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_136.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_136.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_135.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_135.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_135.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_135.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_134.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_134.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_134.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_134.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_133.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_133.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_133.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_133.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_132.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_132.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_132.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_132.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_131.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_131.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_131.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_131.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_130.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_130.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_130.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_130.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_129.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_129.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_129.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_129.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_128.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_128.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_128.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_128.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_127.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_127.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_127.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_127.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_126.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_126.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_126.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_126.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_125.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_125.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_125.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_125.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_124.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_124.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_124.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_124.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_123.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_123.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_123.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_123.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_122.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_122.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_122.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_122.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_121.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_121.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_121.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_121.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_120.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_120.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_120.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_120.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_119.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_119.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_119.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_119.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_118.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_118.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_118.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_118.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_117.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_117.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_117.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_117.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_116.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_116.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_116.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_116.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_115.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_115.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_115.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_115.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_114.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_114.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_114.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_114.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_113.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_113.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_113.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_113.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_112.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_112.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_112.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_112.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_111.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_111.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_111.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_111.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_110.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_110.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_110.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_110.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_109.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_109.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_109.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_109.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_108.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_108.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_108.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_108.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_107.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_107.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_107.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_107.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_106.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_106.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_106.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_106.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_105.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_105.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_105.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_105.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_104.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_104.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_104.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_104.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_103.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_103.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_103.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_103.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_102.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_102.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_102.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_102.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_101.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_101.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_101.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_101.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_100.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_100.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_100.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_100.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_99.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_99.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_99.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_99.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_98.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_98.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_98.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_98.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_97.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_97.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_97.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_97.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_96.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_96.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_96.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_96.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_95.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_95.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_95.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_95.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_94.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_94.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_94.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_94.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_93.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_93.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_93.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_93.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_92.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_92.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_92.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_92.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_91.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_91.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_91.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_91.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_90.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_90.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_90.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_90.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_89.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_89.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_89.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_89.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_88.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_88.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_88.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_88.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_87.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_87.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_87.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_87.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_86.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_86.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_86.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_86.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_85.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_85.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_85.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_85.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_84.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_84.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_84.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_84.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_83.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_83.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_83.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_83.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_82.csh
+Output         = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/out/147AE5D82CF7B6677D242A2FFD4BF6BB_82.log
+Error          = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/err/147AE5D82CF7B6677D242A2FFD4BF6BB_82.err
+Requirements   = ((CPU_Experiment == "sdcc" ) || (CPU_Experiment == "star") || (CPU_Experiment == "phenix"))
+Log            = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/report/sched147AE5D82CF7B6677D242A2FFD4BF6BB_82.condor.log
+Initialdir     = /star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+

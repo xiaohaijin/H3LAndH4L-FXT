@@ -481,6 +481,7 @@ Int_t StV0Maker::Make() {
       }
     }
 
+<<<<<<< HEAD
     tofmass = sqrt(p.mag2() * (1.0 / (tofbeta * tofbeta) - 1.0));  //(GeV/c^2)
 
     // cut on tracks
@@ -554,6 +555,216 @@ Int_t StV0Maker::Make() {
       mDauMassVec1.push_back(tofmass);
       mDauBetaVec1.push_back(tofbeta);
       mDauDiffInvBetaVec1.push_back(dau1diffinvbeta);
+=======
+    //	Fill some QA plots
+    //	Float_t temprefMult = muEvent->refMult();
+    Float_t temprefMult = muEvent->grefmult(); // for Run14.
+    hNRefMult->Fill(temprefMult);
+
+    //	cut on vertexZ, not necessary for run4 central trigger data
+    if (muEvent->primaryVertexPosition().z() > 212 || muEvent->primaryVertexPosition().z() < 210)
+        return kStOK;
+    mV0Dst.primvertexX = muEvent->primaryVertexPosition().x();
+    mV0Dst.primvertexY = muEvent->primaryVertexPosition().y();
+    mV0Dst.primvertexZ = muEvent->primaryVertexPosition().z();
+
+    //	cut on centrality or reference multiplicity.
+    if (temprefMult) {
+    } // TODO: need to check whether this is the same as in old code. the old code might ignore the case of pile-up.
+
+    mPassEventCut = true;
+
+    float mvpdVz = -999.0;
+    StBTofHeader* mBTofHeader = mMuDstMaker->muDst()->btofHeader();
+    if (mBTofHeader)
+        mvpdVz = mBTofHeader->vpdVz();
+
+    mV0Dst.nrefmult = temprefMult;
+    mV0Dst.eventid = muEvent->eventId();
+    mV0Dst.runid = muEvent->runInfo().runId();
+    mV0Dst.vpdVz = mvpdVz;
+
+    hVertexZdiff->Fill(mvpdVz - muEvent->primaryVertexPosition().z());
+
+    //	Do 'event' analysis based on event data
+    //	Record some information...
+
+    hVertexZ->Fill(muEvent->primaryVertexPosition().z()); // Make histogram of the vertex Z distribution
+    hSelectNRefMult->Fill(temprefMult); // this is an ESSENTIAL histogram to record the total number of events for
+    // certain centrality. always make sure it is filled AFTER event selection!
+
+    Double_t magn = muEvent->runInfo().magneticField();
+    //	Double_t magn = muEvent->magneticField();	//checked! the same as above
+
+    mV0Dst.magn = magn;
+
+    hMagneticField->Fill(magn);
+
+    //  Get 'track' data, make cuts on tracks, do physics analysis, histogram results.
+    //  Create a TObject array containing the global tracks or the primary tracks.
+    TObjArray* tracks = mMuDstMaker->muDst()->globalTracks();
+    //	TObjArray* tracks = mMuDstMaker->muDst()->primaryTracks();
+    TObjArrayIter GetTracks(tracks); // Create an iterator to step through the tracks
+
+    StMuTrack* track = 0; // Pointer to a track
+
+    //	Main loop for Iterating over tracks
+    while ((track = (StMuTrack*)GetTracks.Next())) {
+        short flag = track->flag();
+        unsigned short nHitsDedx = track->nHitsDedx(); // added dEdx Hits to restrict the background!
+        unsigned short nHitsFit = track->nHitsFit(kTpcId);
+        short charge = track->charge();
+        double nsigmapion = track->nSigmaPion();
+        double nsigmaproton = track->nSigmaProton();
+        double nsigmakaon = track->nSigmaKaon();
+        double dedx = track->dEdx();
+        int trackid = track->id();
+        float tracketa = track->eta();
+        StMuBTofPidTraits tofPid = (StMuBTofPidTraits)track->btofPidTraits();
+
+        //		StPhysicalHelixD   helix        = track->helix();//inner helix. good for dca to PV.
+
+        if (track->index2Cov() < 0)
+            continue;
+        StDcaGeometry* dcaG = mMuDstMaker->muDst()->covGlobTracks(track->index2Cov());
+        if (!dcaG) {
+            cout << "No dca Geometry for this track !!!" << endl;
+            continue;
+        }
+        StPhysicalHelixD helix = dcaG->helix();
+
+        StThreeVectorD p = helix.momentum(magn * kilogauss); // momentum at origin
+        StThreeVectorD origin = helix.origin(); // origin of helix
+        StThreeVectorF pv = muEvent->primaryVertexPosition();
+        double pathlength = helix.pathLength(
+            pv, false); // do scan periods.NOTE:the default is false.this is not necessary for tracks with pt>0.15GeV/c
+
+        StThreeVectorF dca = helix.at(pathlength) - pv;
+        float tofbeta = -999.0;
+        float tofmass = -999.0;
+
+        if (tofPid.beta() > 0.0) {
+            tofbeta = tofPid.beta();
+            if (tofbeta < 1e-4 && dca.mag() < 3.0) {
+                StThreeVectorF btofHitPos = tofPid.position();
+                StThreeVectorF pVtx = muEvent->primaryVertexPosition();
+                float L = tofPathLength(&pVtx, &btofHitPos, helix.curvature());
+                float tof = tofPid.timeOfFlight();
+                if (tof > 0)
+                    tofbeta = L / (tof * (C_C_LIGHT / 1.e9));
+                else
+                    tofbeta = -999.0;
+            }
+        }
+
+        tofmass = sqrt(p.mag2() * (1.0 / (tofbeta * tofbeta) - 1.0)); //(GeV/c^2)
+
+        // cut on tracks
+        if (nHitsFit <= cutNHitsGr)
+            continue;
+        //		if(nHitsDedx<=cutNHitsDedxGr)continue;
+        if (flag <= 0 || flag >= 1000)
+            continue;
+        // if(track->bad())continue;
+        if (abs(charge) != 1)
+            continue; // Let's comment out this line for checking
+        if (fabs(track->eta()) > 2.0)
+            continue; // 1.0 to 1.5 to include more He3, pion should keep (-1.,1.0)
+        		if(Float_t(nHitsFit)/Float_t(track->nHitsPoss())<0.52)continue;
+        		if(Float_t(nHitsFit)/Float_t(track->nHitsPoss())>1.02)continue;
+        if (p.perp() < cutPtGrEq)
+            continue; // should be larger. like 0.15 or 0.2
+        if (dca.mag() > 1.0)
+            continue;
+
+        hnSigmaProton->Fill(p.mag() * charge, nsigmaproton);
+        hnSigmaPion->Fill(p.mag() * charge, nsigmapion);
+        hnSigmaKaon->Fill(p.mag() * charge, nsigmakaon);
+
+        hdEdxP->Fill(p.mag() * charge, dedx); // dedx vs. rigidity.
+        if (tofbeta > 0.0)
+            hInvBetaP->Fill(p.mag() * charge, 1.0 / tofbeta); // beta vs. ragidity
+        hMassP->Fill(p.mag() * charge, tofmass); // mass vs. rigidity.
+        hDcaP->Fill(p.mag() * charge, dca.mag()); // Dca vs. rigidity.
+
+        Double_t dau1Z = TMath::Log(dedx / dedx_dau1_th[index_for_p(abs(mCharge1) * p.mag())]); // He3 charge = 2. build
+        // in mom p/q,should be
+        // corrected here!
+        Double_t dau2Z = TMath::Log(dedx / dedx_dau2_th[index_for_p(abs(mCharge2) * p.mag())]); // He3 charge = 2. build
+        // in mom p/q,should be
+        // corrected here!
+
+        // record the dau1 information.
+        if (charge == mCharge1 / abs(mCharge1) && (dau1Z > -0.3 && dau1Z < 0.5)) {
+            // 1st select, will re-select in v0 analysis
+            //			if(mRotate)
+            //			{
+            //				StPhysicalHelixD helixtmp = RotHelix(helix,pv,RotDegree,magn,charge);
+            //				helix = helixtmp;
+            //
+            //				pathlength = helix.pathLength(pv,true);
+            //				dca = helix.at(pathlength)-pv;
+            //			}
+
+            if (dca.mag() < cutDca1GrEq)
+                continue;
+
+            StThreeVectorD dau1p = abs(mCharge1) * p;
+            double dau1E = sqrt(dau1p.mag2() + mMass1 * mMass1);
+            double dau1diffinvbeta = -999.0;
+
+            if (tofbeta > 0.0)
+                dau1diffinvbeta = 1.0 / tofbeta - dau1E / dau1p.mag();
+
+            hdau1dEdxP->Fill(p.mag() * charge, dedx);
+            hdau1ZP->Fill(p.mag() * charge, dau1Z);
+            hdau1MassP->Fill(p.mag() * charge, tofmass);
+            hdau1InvBetaP->Fill(p.mag() * charge, 1.0 / tofbeta);
+            hdau1DiffInvBetaP->Fill(p.mag() * charge, dau1diffinvbeta);
+
+            mDauVec1.push_back(track);
+            mDauDcaVec1.push_back(dca.mag());
+            mDauZVec1.push_back(dau1Z);
+            mDauMassVec1.push_back(tofmass);
+            mDauBetaVec1.push_back(tofbeta);
+            mDauDiffInvBetaVec1.push_back(dau1diffinvbeta);
+        }
+
+        // record the dau2 information.
+        if (charge == mCharge2 / abs(mCharge2) && fabs(nsigmapion) < cutAbsNSigma2Le) {
+            //			if(mRotate)
+            //			{
+            //				StPhysicalHelixD helixtmp = RotHelix(helix,pv,RotDegree,magn,charge);
+            //				helix = helixtmp;
+            //
+            //				pathlength = helix.pathLength(pv,true);
+            //				dca = helix.at(pathlength)-pv;
+            //			}
+
+            if (dca.mag() < cutDca2GrEq)
+                continue;
+
+            StThreeVectorD dau2p = abs(mCharge2) * p;
+            double dau2E = sqrt(dau2p.mag2() + mMass2 * mMass2);
+            double dau2diffinvbeta = -999.0;
+
+            if (tofbeta > 0.0)
+                dau2diffinvbeta = 1.0 / tofbeta - dau2E / dau2p.mag();
+
+            hdau2dEdxP->Fill(p.mag() * charge, dedx);
+            hdau2ZP->Fill(p.mag() * charge, dau2Z);
+            hdau2MassP->Fill(p.mag() * charge, tofmass);
+            hdau2InvBetaP->Fill(p.mag() * charge, 1.0 / tofbeta);
+            hdau2DiffInvBetaP->Fill(p.mag() * charge, dau2diffinvbeta);
+
+            mDauVec2.push_back(track);
+            mDauDcaVec2.push_back(dca.mag());
+            mDauZVec2.push_back(dau2Z);
+            mDauMassVec2.push_back(tofmass);
+            mDauBetaVec2.push_back(tofbeta);
+            mDauDiffInvBetaVec2.push_back(dau2diffinvbeta);
+        }
+>>>>>>> a022dab7d82dd539d4302f0127b470cc1d62ff32
     }
 
     // record the dau2 information.

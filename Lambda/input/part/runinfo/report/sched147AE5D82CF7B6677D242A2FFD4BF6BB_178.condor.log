@@ -1,0 +1,47 @@
+000 (6512335.000.000) 11/20 16:49:45 Job submitted from host: <130.199.153.67:9618?addrs=130.199.153.67-9618&noUDP&sock=7357_7f42_4>
+...
+001 (6512335.000.000) 11/20 16:50:14 Job executing on host: <130.199.202.108:9618?addrs=130.199.202.108-9618&noUDP&sock=9347_4e96_3>
+...
+006 (6512335.000.000) 11/20 16:50:22 Image size of job updated: 979788
+	957  -  MemoryUsage of job (MB)
+	979604  -  ResidentSetSize of job (KB)
+...
+006 (6512335.000.000) 11/20 16:55:22 Image size of job updated: 1052844
+	1028  -  MemoryUsage of job (MB)
+	1052660  -  ResidentSetSize of job (KB)
+...
+006 (6512335.000.000) 11/20 17:00:23 Image size of job updated: 1053764
+	1029  -  MemoryUsage of job (MB)
+	1053580  -  ResidentSetSize of job (KB)
+...
+006 (6512335.000.000) 11/20 17:05:23 Image size of job updated: 1053824
+	1029  -  MemoryUsage of job (MB)
+	1053640  -  ResidentSetSize of job (KB)
+...
+006 (6512335.000.000) 11/20 17:10:23 Image size of job updated: 1053888
+	1030  -  MemoryUsage of job (MB)
+	1053704  -  ResidentSetSize of job (KB)
+...
+006 (6512335.000.000) 11/20 17:15:23 Image size of job updated: 1054328
+	1030  -  MemoryUsage of job (MB)
+	1054144  -  ResidentSetSize of job (KB)
+...
+006 (6512335.000.000) 11/20 17:15:36 Image size of job updated: 1101244
+	1030  -  MemoryUsage of job (MB)
+	1054144  -  ResidentSetSize of job (KB)
+...
+005 (6512335.000.000) 11/20 17:15:36 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:18:50, Sys 0 00:00:48  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:18:50, Sys 0 00:00:48  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       10       10  66831977
+	   Memory (MB)          :     1030        1      2665
+...

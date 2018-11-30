@@ -1,0 +1,47 @@
+000 (6512311.000.000) 11/20 16:49:24 Job submitted from host: <130.199.153.67:9618?addrs=130.199.153.67-9618&noUDP&sock=7357_7f42_4>
+...
+001 (6512311.000.000) 11/20 16:50:15 Job executing on host: <130.199.202.103:9618?addrs=130.199.202.103-9618&noUDP&sock=377056_9040_3>
+...
+006 (6512311.000.000) 11/20 16:50:24 Image size of job updated: 978408
+	956  -  MemoryUsage of job (MB)
+	978224  -  ResidentSetSize of job (KB)
+...
+006 (6512311.000.000) 11/20 16:55:25 Image size of job updated: 1049276
+	1025  -  MemoryUsage of job (MB)
+	1049092  -  ResidentSetSize of job (KB)
+...
+006 (6512311.000.000) 11/20 17:00:25 Image size of job updated: 1049828
+	1026  -  MemoryUsage of job (MB)
+	1049644  -  ResidentSetSize of job (KB)
+...
+006 (6512311.000.000) 11/20 17:05:25 Image size of job updated: 1049920
+	1026  -  MemoryUsage of job (MB)
+	1049644  -  ResidentSetSize of job (KB)
+...
+006 (6512311.000.000) 11/20 17:10:27 Image size of job updated: 1050108
+	1026  -  MemoryUsage of job (MB)
+	1049664  -  ResidentSetSize of job (KB)
+...
+006 (6512311.000.000) 11/20 17:15:27 Image size of job updated: 1050520
+	1026  -  MemoryUsage of job (MB)
+	1050076  -  ResidentSetSize of job (KB)
+...
+006 (6512311.000.000) 11/20 17:20:27 Image size of job updated: 1050864
+	1026  -  MemoryUsage of job (MB)
+	1050420  -  ResidentSetSize of job (KB)
+...
+005 (6512311.000.000) 11/20 17:21:41 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:23:26, Sys 0 00:00:58  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:23:26, Sys 0 00:00:58  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       10       10  66831998
+	   Memory (MB)          :     1026        1      2665
+...

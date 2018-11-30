@@ -1,0 +1,155 @@
+We are starting on node: rcrs6066.rcf.bnl.gov
+HOME is not defined
+Using getent method
+HOME is now /star/u/jhai
+37011 We will spawn ourselves (/star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Hypertriton/input/runinfo/csh/sched041239ADF7763BC03611C85295C7C045_55.csh )
+37011 We BEGIN on [Mon Nov 26 13:05:36 EST 2018]
+[1] 37200
+37011 We are waiting for 37200 
+37011 Grandchild PID is 37219 - found in 0 x 1 seconds
+37011 Establishing first watcher   on    Mon Nov 26 13:05:37 EST 2018
+37011 Process tree is 37011 (main) -> 37200 (child) -> 37219 (grandchild)
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY        TIME CMD
+37011 Grandchild PID is 37363 - found in 10 x 2 seconds
+37011 Grandchild to watch has changed on Mon Nov 26 13:05:57 EST 2018
+37011 Process tree is 37011 (main) -> 37200 (child) -> 37363 (grandchild)
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY        TIME CMD
+0 S 11732 37363 37200 23  80   0 - 281924 futex_ ?         0:04 root4star -q -b reco.C("/star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Hypertriton/input/runinfo/list/sched041239ADF7763BC03611C85295C7C045_55.list",1,0,"/tmp/jhai/041239ADF7763BC03611C85295C7C045_55/","041239ADF7763BC03611C85295C7C045_55")
+37200 Stepping into the main SUMS wrapper program with []
+--------------------------------
+STAR Unified Meta Scheduler 1.10.28 we are starting in $SCRATCH : /home/tmp/jhai/041239ADF7763BC03611C85295C7C045_55
+--------------------------------
+total 0
+  *******************************************
+  *                                         *
+  *        W E L C O M E  to  R O O T       *
+  *                                         *
+  *   Version   5.34/30     23 April 2015   *
+  *                                         *
+  *  You are welcome to visit our Web site  *
+  *          http://root.cern.ch            *
+  *                                         *
+  *******************************************
+
+ROOT 5.34/30 (v5-34-30@v5-34-30, Apr 23 2015, 18:31:46 on linux)
+
+CINT/ROOT C/C++ Interpreter version 5.18.00, July 2, 2010
+Type ? for help. Commands must be C++ statements.
+Enclose multiple statements between { }.
+*** Float Point Exception is OFF ***
+ *** Start at Date : Mon Nov 26 13:05:37 2018
+QAInfo:You are using STAR_LEVEL : new, ROOT_LEVEL : 5.34.30 and node : rcrs6066.rcf.bnl.gov 
+
+Processing reco.C("/star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Hypertriton/input/runinfo/list/sched041239ADF7763BC03611C85295C7C045_55.list",1,0,"/tmp/jhai/041239ADF7763BC03611C85295C7C045_55/","041239ADF7763BC03611C85295C7C045_55")...
+strangeArrayNames-arrayNames-__NARRAYS__ = 0
+ loading of shared libraries done
+##### void StMuDstMaker::setProbabilityPidFile(const char*) ##### ATTENTION: pid table hardwired to /afs/rhic.bnl.gov/star/packages/SL18f/StarDb/dEdxModel/PIDTableP01gl.root
+StInfo: StMuDstMaker::SetStatus 1 to MuEvent
+StInfo: StMuDstMaker::SetStatus 1 to PrimaryVertices
+StInfo: StMuDstMaker::SetStatus 1 to PrimaryTracks
+StInfo: StMuDstMaker::SetStatus 1 to GlobalTracks
+StInfo: StMuDstMaker::SetStatus 1 to OtherTracks
+StInfo: StMuDstMaker::SetStatus 1 to L3Tracks
+StInfo: StMuDstMaker::SetStatus 1 to RichSpectra
+StInfo: StMuDstMaker::SetStatus 1 to DetectorStates
+StInfo: StMuDstMaker::SetStatus 1 to L3AlgoAccept
+StInfo: StMuDstMaker::SetStatus 1 to L3AlgoReject
+StInfo: StMuDstMaker::SetStatus 1 to CovGlobTrack
+StInfo: StMuDstMaker::SetStatus 1 to CovPrimTrack
+StInfo: StMuDstMaker::SetStatus 1 to pp2pp
+StInfo: StMuDstMaker::SetStatus 1 to mtd
+StInfo: StMuDstMaker::SetStatus 1 to Event
+StInfo: StMuDstMaker::SetStatus 1 to McEvent
+StInfo: StMuDstMaker::SetStatus 1 to V0
+StInfo: StMuDstMaker::SetStatus 1 to McV0
+StInfo: StMuDstMaker::SetStatus 1 to V0Assoc
+StInfo: StMuDstMaker::SetStatus 1 to Xi
+StInfo: StMuDstMaker::SetStatus 1 to McXi
+StInfo: StMuDstMaker::SetStatus 1 to XiAssoc
+StInfo: StMuDstMaker::SetStatus 1 to Kink
+StInfo: StMuDstMaker::SetStatus 1 to McKink
+StInfo: StMuDstMaker::SetStatus 1 to KinkAssoc
+StInfo: StMuDstMaker::SetStatus 1 to StrangeCuts
+StInfo: StMuDstMaker::SetStatus 1 to StMuMcVertex
+StInfo: StMuDstMaker::SetStatus 1 to StMuMcTrack
+StInfo: StMuDstMaker::SetStatus 1 to EmcTow
+StInfo: StMuDstMaker::SetStatus 1 to EmcPrs
+StInfo: StMuDstMaker::SetStatus 1 to EmcSmde
+StInfo: StMuDstMaker::SetStatus 1 to EmcSmdp
+StInfo: StMuDstMaker::SetStatus 1 to EEmcPrs
+StInfo: StMuDstMaker::SetStatus 1 to EEmcSmdu
+StInfo: StMuDstMaker::SetStatus 1 to EEmcSmdv
+StInfo: StMuDstMaker::SetStatus 1 to PmdHit
+StInfo: StMuDstMaker::SetStatus 1 to CpvHit
+StInfo: StMuDstMaker::SetStatus 1 to PmdCluster
+StInfo: StMuDstMaker::SetStatus 1 to CpvCluster
+StInfo: StMuDstMaker::SetStatus 1 to FmsHit
+StInfo: StMuDstMaker::SetStatus 1 to FmsCluster
+StInfo: StMuDstMaker::SetStatus 1 to FmsPoint
+StInfo: StMuDstMaker::SetStatus 1 to FmsInfo
+StInfo: StMuDstMaker::SetStatus 1 to TofHit
+StInfo: StMuDstMaker::SetStatus 1 to TofData
+StInfo: StMuDstMaker::SetStatus 1 to TofRawData
+StInfo: StMuDstMaker::SetStatus 1 to BTofHit
+StInfo: StMuDstMaker::SetStatus 1 to BTofRawHit
+StInfo: StMuDstMaker::SetStatus 1 to BTofHeader
+StInfo: StMuDstMaker::SetStatus 1 to EpdHit
+StInfo: StMuDstMaker::SetStatus 1 to MTDHit
+StInfo: StMuDstMaker::SetStatus 1 to MTDRawHit
+StInfo: StMuDstMaker::SetStatus 1 to MTDHeader
+StInfo: StMuDstMaker::SetStatus 1 to FgtStrip
+StInfo: StMuDstMaker::SetStatus 1 to FgtCluster
+StInfo: StMuDstMaker::SetStatus 1 to FgtStripAssociation
+StInfo: StMuDstMaker::SetStatus 1 to FgtAdc
+StInfo: StMuDstMaker::SetStatus 1 to EztHead
+StInfo: StMuDstMaker::SetStatus 1 to EztTrig
+StInfo: StMuDstMaker::SetStatus 1 to EztETow
+StInfo: StMuDstMaker::SetStatus 1 to EztESmd
+StInfo: StMuDstMaker::SetStatus 1 to EztFpd
+ Total entries = 1175
+
+== Event 1000 start ==
+StQAInfo: =================================================================================
+StQAInfo: QAInfo:Chain              StChain::bfcChain             Ast =101.97        Cpu =  9.25
+StQAInfo: QAInfo:Maker            StV0Maker::v0makerfirst_antibackground Ast =  0.91( 0.9%) Cpu =  0.95(10.3%)
+StQAInfo: QAInfo:Maker            StV0Maker::v0makerfirst_background Ast =  1.49( 1.5%) Cpu =  1.47(15.9%)
+StQAInfo: QAInfo:Maker            StV0Maker::v0makerfirst_antisignal Ast =  1.21( 1.2%) Cpu =  1.31(14.2%)
+StQAInfo: QAInfo:Maker            StV0Maker::v0makerfirst_signal  Ast =  1.25( 1.2%) Cpu =  1.12(12.1%)
+StQAInfo: QAInfo:Maker         StMuDstMaker::MuDst                Ast = 97.11(95.2%) Cpu =  4.40(47.6%)
+Total Events Processed in StV0Maker 1137
+Total Events Processed in StV0Maker 1137
+Total Events Processed in StV0Maker 1137
+Total Events Processed in StV0Maker 1137
+StInfo: --------------Error Codes-------------------------
+StInfo:      nStOK   nStWarn    nStEOF    nStErr  nStFatal
+StInfo:       5875         0         0         0         0
+StInfo: --------------------------------------------------
+               StMemStat::Summary(calls)        Min        Aver         Max         RMS 
+=============================================================================================
+              StMuDstMaker(MuDst)::Clear(1154)    0.000000    0.000000    0.000000    0.000000
+              StMuDstMaker(MuDst)::Make (1155)   -2.645336   -0.001738    0.544960    0.079550
+StV0Maker(v0makerfirst_antibackground)::(1154)    0.000000    0.000000    0.000000    0.000000
+StV0Maker(v0makerfirst_antibackground)::(1155)    0.000000    0.000001    0.000688    0.000020
+StV0Maker(v0makerfirst_antisignal)::Clea(1154)    0.000000    0.000000    0.000000    0.000000
+StV0Maker(v0makerfirst_antisignal)::Make(1155)    0.000000    0.000001    0.000688    0.000020
+StV0Maker(v0makerfirst_background)::Clea(1154)    0.000000    0.000000    0.000000    0.000000
+StV0Maker(v0makerfirst_background)::Make(1155)    0.000000    0.000000    0.000368    0.000011
+   StV0Maker(v0makerfirst_signal)::Clear(1154)    0.000000    0.000000    0.000000    0.000000
+   StV0Maker(v0makerfirst_signal)::Make (1155)    0.000000    0.002134    2.464800    0.072494
+---------------------------------------------------------------------------------------------
+                                   Total(10)   -2.645336    0.000398    2.464800    0.107627
+=============================================================================================
+
+This is the end of ROOT -- Goodbye
+
+Starting copy block
+Running copy command:  /bin/cp -fp /tmp/jhai/041239ADF7763BC03611C85295C7C045_55/041239ADF7763BC03611C85295C7C045_55.alabg.histo.root /star/u/jhai/scratch/FixedTarget/H3L/output/
+Running copy command:  /bin/cp -fp /tmp/jhai/041239ADF7763BC03611C85295C7C045_55/041239ADF7763BC03611C85295C7C045_55.alabg.picodst.root /star/u/jhai/scratch/FixedTarget/H3L/output/
+Running copy command:  /bin/cp -fp /tmp/jhai/041239ADF7763BC03611C85295C7C045_55/041239ADF7763BC03611C85295C7C045_55.ala.histo.root /star/u/jhai/scratch/FixedTarget/H3L/output/
+Running copy command:  /bin/cp -fp /tmp/jhai/041239ADF7763BC03611C85295C7C045_55/041239ADF7763BC03611C85295C7C045_55.ala.picodst.root /star/u/jhai/scratch/FixedTarget/H3L/output/
+Running copy command:  /bin/cp -fp /tmp/jhai/041239ADF7763BC03611C85295C7C045_55/041239ADF7763BC03611C85295C7C045_55.labg.histo.root /star/u/jhai/scratch/FixedTarget/H3L/output/
+Running copy command:  /bin/cp -fp /tmp/jhai/041239ADF7763BC03611C85295C7C045_55/041239ADF7763BC03611C85295C7C045_55.labg.picodst.root /star/u/jhai/scratch/FixedTarget/H3L/output/
+Running copy command:  /bin/cp -fp /tmp/jhai/041239ADF7763BC03611C85295C7C045_55/041239ADF7763BC03611C85295C7C045_55.la.histo.root /star/u/jhai/scratch/FixedTarget/H3L/output/
+Running copy command:  /bin/cp -fp /tmp/jhai/041239ADF7763BC03611C85295C7C045_55/041239ADF7763BC03611C85295C7C045_55.la.picodst.root /star/u/jhai/scratch/FixedTarget/H3L/output/
+37011 Execution of (/star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Hypertriton/input/runinfo/csh/sched041239ADF7763BC03611C85295C7C045_55.csh ) has ended, exiting normally
+37011 We END on [Mon Nov 26 13:07:32 EST 2018]

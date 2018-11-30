@@ -1,0 +1,149 @@
+We are starting on node: spool0409.sdcc.bnl.gov
+HOME is not defined
+Using getent method
+HOME is now /star/u/jhai
+26836 We will spawn ourselves (/star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_117.csh )
+26836 We BEGIN on [Tue Nov 20 16:51:51 EST 2018]
+[1] 27008
+26836 We are waiting for 27008 
+26836 Grandchild PID is 27159 - found in 10 x 1 seconds
+26836 Establishing first watcher   on    Tue Nov 20 16:52:03 EST 2018
+26836 Process tree is 26836 (main) -> 27008 (child) -> 27159 (grandchild)
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY        TIME CMD
+0 R 11732 27159 27008 43  80   0 - 43189 -      ?          0:04 root4star -q -b reco.C("/star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/list/sched147AE5D82CF7B6677D242A2FFD4BF6BB_117.list",1,0,"/tmp/jhai/147AE5D82CF7B6677D242A2FFD4BF6BB_117/","147AE5D82CF7B6677D242A2FFD4BF6BB_117")
+27008 Stepping into the main SUMS wrapper program with []
+--------------------------------
+STAR Unified Meta Scheduler 1.10.28 we are starting in $SCRATCH : /home/tmp/jhai/147AE5D82CF7B6677D242A2FFD4BF6BB_117
+--------------------------------
+total 0
+  *******************************************
+  *                                         *
+  *        W E L C O M E  to  R O O T       *
+  *                                         *
+  *   Version   5.34/30     23 April 2015   *
+  *                                         *
+  *  You are welcome to visit our Web site  *
+  *          http://root.cern.ch            *
+  *                                         *
+  *******************************************
+
+ROOT 5.34/30 (v5-34-30@v5-34-30, Apr 23 2015, 18:31:46 on linux)
+
+CINT/ROOT C/C++ Interpreter version 5.18.00, July 2, 2010
+Type ? for help. Commands must be C++ statements.
+Enclose multiple statements between { }.
+*** Float Point Exception is OFF ***
+ *** Start at Date : Tue Nov 20 16:51:55 2018
+QAInfo:You are using STAR_LEVEL : new, ROOT_LEVEL : 5.34.30 and node : spool0409.sdcc.bnl.gov 
+
+Processing reco.C("/star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/list/sched147AE5D82CF7B6677D242A2FFD4BF6BB_117.list",1,0,"/tmp/jhai/147AE5D82CF7B6677D242A2FFD4BF6BB_117/","147AE5D82CF7B6677D242A2FFD4BF6BB_117")...
+strangeArrayNames-arrayNames-__NARRAYS__ = 0
+ loading of shared libraries done
+##### void StMuDstMaker::setProbabilityPidFile(const char*) ##### ATTENTION: pid table hardwired to /afs/rhic.bnl.gov/star/packages/SL18f/StarDb/dEdxModel/PIDTableP01gl.root
+StInfo: StMuDstMaker::SetStatus 1 to MuEvent
+StInfo: StMuDstMaker::SetStatus 1 to PrimaryVertices
+StInfo: StMuDstMaker::SetStatus 1 to PrimaryTracks
+StInfo: StMuDstMaker::SetStatus 1 to GlobalTracks
+StInfo: StMuDstMaker::SetStatus 1 to OtherTracks
+StInfo: StMuDstMaker::SetStatus 1 to L3Tracks
+StInfo: StMuDstMaker::SetStatus 1 to RichSpectra
+StInfo: StMuDstMaker::SetStatus 1 to DetectorStates
+StInfo: StMuDstMaker::SetStatus 1 to L3AlgoAccept
+StInfo: StMuDstMaker::SetStatus 1 to L3AlgoReject
+StInfo: StMuDstMaker::SetStatus 1 to CovGlobTrack
+StInfo: StMuDstMaker::SetStatus 1 to CovPrimTrack
+StInfo: StMuDstMaker::SetStatus 1 to pp2pp
+StInfo: StMuDstMaker::SetStatus 1 to mtd
+StInfo: StMuDstMaker::SetStatus 1 to Event
+StInfo: StMuDstMaker::SetStatus 1 to McEvent
+StInfo: StMuDstMaker::SetStatus 1 to V0
+StInfo: StMuDstMaker::SetStatus 1 to McV0
+StInfo: StMuDstMaker::SetStatus 1 to V0Assoc
+StInfo: StMuDstMaker::SetStatus 1 to Xi
+StInfo: StMuDstMaker::SetStatus 1 to McXi
+StInfo: StMuDstMaker::SetStatus 1 to XiAssoc
+StInfo: StMuDstMaker::SetStatus 1 to Kink
+StInfo: StMuDstMaker::SetStatus 1 to McKink
+StInfo: StMuDstMaker::SetStatus 1 to KinkAssoc
+StInfo: StMuDstMaker::SetStatus 1 to StrangeCuts
+StInfo: StMuDstMaker::SetStatus 1 to StMuMcVertex
+StInfo: StMuDstMaker::SetStatus 1 to StMuMcTrack
+StInfo: StMuDstMaker::SetStatus 1 to EmcTow
+StInfo: StMuDstMaker::SetStatus 1 to EmcPrs
+StInfo: StMuDstMaker::SetStatus 1 to EmcSmde
+StInfo: StMuDstMaker::SetStatus 1 to EmcSmdp
+StInfo: StMuDstMaker::SetStatus 1 to EEmcPrs
+StInfo: StMuDstMaker::SetStatus 1 to EEmcSmdu
+StInfo: StMuDstMaker::SetStatus 1 to EEmcSmdv
+StInfo: StMuDstMaker::SetStatus 1 to PmdHit
+StInfo: StMuDstMaker::SetStatus 1 to CpvHit
+StInfo: StMuDstMaker::SetStatus 1 to PmdCluster
+StInfo: StMuDstMaker::SetStatus 1 to CpvCluster
+StInfo: StMuDstMaker::SetStatus 1 to FmsHit
+StInfo: StMuDstMaker::SetStatus 1 to FmsCluster
+StInfo: StMuDstMaker::SetStatus 1 to FmsPoint
+StInfo: StMuDstMaker::SetStatus 1 to FmsInfo
+StInfo: StMuDstMaker::SetStatus 1 to TofHit
+StInfo: StMuDstMaker::SetStatus 1 to TofData
+StInfo: StMuDstMaker::SetStatus 1 to TofRawData
+StInfo: StMuDstMaker::SetStatus 1 to BTofHit
+StInfo: StMuDstMaker::SetStatus 1 to BTofRawHit
+StInfo: StMuDstMaker::SetStatus 1 to BTofHeader
+StInfo: StMuDstMaker::SetStatus 1 to EpdHit
+StInfo: StMuDstMaker::SetStatus 1 to MTDHit
+StInfo: StMuDstMaker::SetStatus 1 to MTDRawHit
+StInfo: StMuDstMaker::SetStatus 1 to MTDHeader
+StInfo: StMuDstMaker::SetStatus 1 to FgtStrip
+StInfo: StMuDstMaker::SetStatus 1 to FgtCluster
+StInfo: StMuDstMaker::SetStatus 1 to FgtStripAssociation
+StInfo: StMuDstMaker::SetStatus 1 to FgtAdc
+StInfo: StMuDstMaker::SetStatus 1 to EztHead
+StInfo: StMuDstMaker::SetStatus 1 to EztTrig
+StInfo: StMuDstMaker::SetStatus 1 to EztETow
+StInfo: StMuDstMaker::SetStatus 1 to EztESmd
+StInfo: StMuDstMaker::SetStatus 1 to EztFpd
+ Total entries = 6143
+
+== Event 1000 start ==
+
+== Event 2000 start ==
+
+== Event 3000 start ==
+
+== Event 4000 start ==
+
+== Event 5000 start ==
+
+== Event 6000 start ==
+StQAInfo: =================================================================================
+StQAInfo: QAInfo:Chain              StChain::bfcChain             Ast =561.06        Cpu =540.10
+StQAInfo: QAInfo:Maker            StV0Maker::v0makerfirst_antisignal Ast = 26.45( 4.7%) Cpu = 26.10( 4.8%)
+StQAInfo: QAInfo:Maker            StV0Maker::v0makerfirst_signal  Ast =446.93(79.7%) Cpu =444.92(82.4%)
+StQAInfo: QAInfo:Maker         StMuDstMaker::MuDst                Ast = 87.68(15.6%) Cpu = 69.08(12.8%)
+Total Events Processed in StV0Maker 530
+Total Events Processed in StV0Maker 530
+StInfo: --------------Error Codes-------------------------
+StInfo:      nStOK   nStWarn    nStEOF    nStErr  nStFatal
+StInfo:      18429         0         0         0         0
+StInfo: --------------------------------------------------
+               StMemStat::Summary(calls)        Min        Aver         Max         RMS 
+=============================================================================================
+              StMuDstMaker(MuDst)::Clear(6122)    0.000000    0.000000    0.000000    0.000000
+              StMuDstMaker(MuDst)::Make (6123)   -0.731128   -0.000149    0.596072    0.039982
+StV0Maker(v0makerfirst_antisignal)::Clea(6122)    0.000000    0.000000    0.000000    0.000000
+StV0Maker(v0makerfirst_antisignal)::Make(6123)    0.000000    0.000415    2.537664    0.032428
+   StV0Maker(v0makerfirst_signal)::Clear(6122)    0.000000    0.000000    0.000000    0.000000
+   StV0Maker(v0makerfirst_signal)::Make (6123)    0.000000    0.000416    2.537464    0.032425
+---------------------------------------------------------------------------------------------
+                                   Total(6)   -0.731128    0.000682    2.537664    0.060840
+=============================================================================================
+
+This is the end of ROOT -- Goodbye
+
+Starting copy block
+Running copy command:  /bin/cp -fp /tmp/jhai/147AE5D82CF7B6677D242A2FFD4BF6BB_117/147AE5D82CF7B6677D242A2FFD4BF6BB_117.ala.histo.root /star/u/jhai/scratch/FixedTarget/Lambda/output/
+Running copy command:  /bin/cp -fp /tmp/jhai/147AE5D82CF7B6677D242A2FFD4BF6BB_117/147AE5D82CF7B6677D242A2FFD4BF6BB_117.ala.picodst.root /star/u/jhai/scratch/FixedTarget/Lambda/output/
+Running copy command:  /bin/cp -fp /tmp/jhai/147AE5D82CF7B6677D242A2FFD4BF6BB_117/147AE5D82CF7B6677D242A2FFD4BF6BB_117.la.histo.root /star/u/jhai/scratch/FixedTarget/Lambda/output/
+Running copy command:  /bin/cp -fp /tmp/jhai/147AE5D82CF7B6677D242A2FFD4BF6BB_117/147AE5D82CF7B6677D242A2FFD4BF6BB_117.la.picodst.root /star/u/jhai/scratch/FixedTarget/Lambda/output/
+26836 Execution of (/star/u/jhai/STAR/FixedTarget/H3LAndH4L-FXT/Lambda/input/part/runinfo/csh/sched147AE5D82CF7B6677D242A2FFD4BF6BB_117.csh ) has ended, exiting normally
+26836 We END on [Tue Nov 20 17:01:47 EST 2018]
