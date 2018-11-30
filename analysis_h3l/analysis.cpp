@@ -172,13 +172,13 @@ int main(int argc, char* argv[])
 	  v0Mass7->Fill(static_cast<double>(v0->v0mass[t]));
 
 	  
-	  if (fabs(v0->dau2nsigma[t]) > 3.0f || v0->dau1Z[t] < -0.1 || v0->dau1Z[t] > 0.3) {
+	  if (fabs(v0->dau2nsigma[t]) > 2.0f || v0->dau1Z[t] < -0.1 || v0->dau1Z[t] > 0.3) {
 	    continue;
 	  }
 	  v0Mass6->Fill(static_cast<double>(v0->v0mass[t]));
 
 	  
-	  if (v0->dau1pt[t] < 0.7f || v0->dau2pt[t] < 0.15f) {
+	  if (v0->dau1pt[t] > 2 || v0->dau1pt[t] < 1.f || v0->dau2pt[t] < 0.15f) {
 	    continue;
 	  }
 	  v0Mass5->Fill(static_cast<double>(v0->v0mass[t]));
@@ -199,7 +199,7 @@ int main(int argc, char* argv[])
 	  }
 	  v0Mass2->Fill(static_cast<double>(v0->v0mass[t]));
 
-	  if (v0->v0declen[t] < 5) {
+	  if (v0->v0declen[t] < 4.8) {
 	    continue;
 	  }
 	  v0Mass1->Fill(static_cast<double>(v0->v0mass[t]));
