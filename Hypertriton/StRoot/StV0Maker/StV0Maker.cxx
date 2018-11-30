@@ -508,8 +508,8 @@ Int_t StV0Maker::Make()
         		if(Float_t(nHitsFit)/Float_t(track->nHitsPoss())>1.02)continue;
         if (p.perp() < cutPtGrEq)
             continue; // should be larger. like 0.15 or 0.2
-        // if (dca.mag() > 3.0)
-        //     continue;
+        if (dca.mag() > 1.0)
+            continue;
 
         hnSigmaProton->Fill(p.mag() * charge, nsigmaproton);
         hnSigmaPion->Fill(p.mag() * charge, nsigmapion);

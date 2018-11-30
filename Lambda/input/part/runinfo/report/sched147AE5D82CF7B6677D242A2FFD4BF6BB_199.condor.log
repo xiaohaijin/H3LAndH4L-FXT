@@ -1,0 +1,47 @@
+000 (6512314.000.000) 11/20 16:49:25 Job submitted from host: <130.199.153.67:9618?addrs=130.199.153.67-9618&noUDP&sock=7357_7f42_4>
+...
+001 (6512314.000.000) 11/20 16:50:11 Job executing on host: <130.199.202.96:9618?addrs=130.199.202.96-9618&noUDP&sock=8395_02d1_3>
+...
+006 (6512314.000.000) 11/20 16:50:20 Image size of job updated: 1023916
+	1000  -  MemoryUsage of job (MB)
+	1023732  -  ResidentSetSize of job (KB)
+...
+006 (6512314.000.000) 11/20 16:55:21 Image size of job updated: 1081896
+	1057  -  MemoryUsage of job (MB)
+	1081592  -  ResidentSetSize of job (KB)
+...
+006 (6512314.000.000) 11/20 17:00:22 Image size of job updated: 1082360
+	1057  -  MemoryUsage of job (MB)
+	1081672  -  ResidentSetSize of job (KB)
+...
+006 (6512314.000.000) 11/20 17:05:22 Image size of job updated: 1082440
+	1057  -  MemoryUsage of job (MB)
+	1081672  -  ResidentSetSize of job (KB)
+...
+006 (6512314.000.000) 11/20 17:10:22 Image size of job updated: 1082836
+	1057  -  MemoryUsage of job (MB)
+	1081848  -  ResidentSetSize of job (KB)
+...
+006 (6512314.000.000) 11/20 17:15:23 Image size of job updated: 1083392
+	1057  -  MemoryUsage of job (MB)
+	1082288  -  ResidentSetSize of job (KB)
+...
+006 (6512314.000.000) 11/20 17:18:35 Image size of job updated: 1532132
+	1057  -  MemoryUsage of job (MB)
+	1082288  -  ResidentSetSize of job (KB)
+...
+005 (6512314.000.000) 11/20 17:18:36 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:27:58, Sys 0 00:00:43  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:27:58, Sys 0 00:00:43  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       10       10  65563444
+	   Memory (MB)          :     1057        1      2297
+...
